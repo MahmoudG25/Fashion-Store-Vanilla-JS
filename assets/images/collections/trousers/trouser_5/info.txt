@@ -1,0 +1,5 @@
+Name : Men's BDU Trousers Ripstop Slimfit Olive
+            Description : Modern slim fit style offers a sleek silhouette without compromising comfort, making these trousers versatile for both casual and professional settings.
+        sizes : M,L,XL
+        price : 4207 EGP
+        vendor: teesar

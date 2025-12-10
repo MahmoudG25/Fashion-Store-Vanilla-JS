@@ -1,0 +1,6 @@
+ Name : Retrieve Trousers Warm Olive C60
+            Description : Crafted with a high-quality warm fabric, these trousers provide exceptional insulation against cold weather, ensuring comfort and coziness for outdoor activities or casual wear.
+        sizes : L
+        price : 27513 EGP
+        vendor: Harkila  
+

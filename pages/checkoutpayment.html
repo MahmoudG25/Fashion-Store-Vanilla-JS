@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Payment</title>
+    <link rel="stylesheet" href="../stylesheets/checkoutaddress.css">
+</head>
+<body>
+    <main>
+
+        <div class="containprogress">
+
+        <h3>Checkout</h3>
+        
+        <div id="checkout_progress" >
+        <div class="checkout_step">Address</div>   
+        <div class="horizontal_line"></div>
+        <div class="checkout_step" >Shipping</div>
+        <div class="horizontal_line"></div>
+        <div class="checkout_step" id="highlighted">Payment</div>
+        </div>
+
+        <div class="payment_types">
+            <button id="PayPal"><img src="../assets/images/PayPal 1.svg" alt="PayPal"></button>
+            <button id="CreditCard">Credit Card</button>
+        </div>
+        <div class="payment_details">
+            <div class="payment_details_title">
+            <p>Payment Details</p>
+            </div>
+            <div class="cardholder">
+                <input type="text" name="cardholder" id="cardholder" placeholder="Cardholder Name" required autocomplete="cc-name">
+            </div>
+            <div class="cardnumber">
+                <input type="text" name="cardnumber" id="cardnumber" placeholder="Card Number" required autocomplete="cc-number">
+            </div>
+            <div class="cardsecurity">
+                <div class="cardmonth">
+                    <select id="month" name="month"  required>
+                        <option value="" disabled selected hidden>Month</option>
+                        <option value="01">January</option>
+                        <option value="02">February</option>
+                        <option value="03">March</option>
+                        <option value="04">April</option>
+                        <option value="05">May</option>
+                        <option value="06">June</option>
+                        <option value="07">July</option>
+                        <option value="08">August</option>
+                        <option value="09">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
+                    </select>
+                </div>
+                <div class="cardyear">
+                    <select id="year" name="year" required>
+                        <option value="" disabled selected hidden>Year</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                        <option value="2028">2028</option>
+                        <option value="2029">2029</option>
+                        <option value="2030">2030</option>
+                        <option value="2031">2031</option>
+                        <option value="2032">2032</option>
+                        <option value="2033">2033</option>
+                        <option value="2034">2034</option>
+                        <option value="2035">2035</option>
+                    </select>
+                </div>
+                <div class="cardcvc">
+                <input type="text" name="cvc" id="cvc" placeholder="cvc" required>
+                </div>
+            </div>
+
+            <div class="carddata">
+                <label for="cardcheck">Save card data</label>
+                <input type="checkbox" name="cardcheck" id="cardcheck">
+            </div>
+            <div>
+                <input type="submit" value="Pay with card" id="paynow">
+            </div>
+        </div>
+
+        </div>
+
+
+
+    <div class="container_2">
+
+    <!-- <p>Your cart</p> -->
+        <div class="cart-container">
+            <div id="cartheader"><h2>Your cart</h2></div>
+            <!-- <div id="contShopping"><a href="">Not readty to checkout? Continue Shopping</a></div> -->
+            
+            
+            <div class="prod-order-container">
+            <div class="Prod-card">
+            </div> 
+
+               <div class="OrderSUM">
+                <h3>Order Summary</h3>
+
+                <div id="Coupontext"><input type="text" name="coupon" id="coupon" placeholder="Enter coupon code here"></div>
+                <div class="orderdetails">
+                    <div class="ship-total">
+                        <p class="Text-sum" >Subtotal</p>
+                        <!-- <p class="T-price" id="Subtotal">$0</p> -->
+                    
+                    </div>
+                    <div class="Shipping">    
+                        <p class="Text-sum">Shipping</p>
+                        <!-- <p class="cal"></p>  -->
+                    </div>
+                    <div>
+                        <div class="discount">
+                        <p class="Text-sum">Discount</p>
+                    </div>
+                    <hr/>
+                    <div class="totalprice">
+                        <p class="Text-sum">Total</p>
+                        <!-- <p class="T-price" id="total">$0</p> -->
+                    <!-- </div>
+                    <div id="btncheckout"><button>Continue to checkout</button></div>
+                    </div> -->
+                </div>
+                
+               </div>
+
+               </div>
+
+    
+            </div>
+    </div>
+
+
+    </main>
+    <script src="../scripts/checkoutpayment.js"></script>
+</body>
+</html>
+
+
+    <!-- <div class="container_2">
+
+    <p>Your cart</p>
+
+    <section>
+
+    <div class="item">
+        <div>
+        <img src="Images/Product Image.png" alt="product">
+        </div>
+        <div class="item_details">
+            <h4>Natural honey bottle</h4>
+            <p>Size: L</p>
+            <div>
+            <p>Quantity: 1</p>
+            <p class="vendor">by Vendor</p>
+            </div>
+            <h4>$99</h4>
+        </div>
+        <div>
+        <a href="#">Remove</a>
+        </div>
+    </div>
+        <hr>
+
+    <div class="item">
+        <div>
+        <img src="Images/Product Image.png" alt="product">
+        </div>
+        <div class="item_details">
+            <h4>Natural honey bottle</h4>
+            <p>Size: L</p>
+            <div>
+            <p>Quantity: 1</p>
+            <p class="vendor">by Vendor</p>
+            </div>
+            <h4>$99</h4>
+        </div>
+        <div>
+        <a href="#">Remove</a>
+        </div>
+    </div>
+
+     <div class="fees">
+            <div class="coupon">
+            <input type="text" name="coupon" id="coupon" placeholder="Enter coupon code">
+            </div>
+
+        <div>
+            <p>Subtotal</p>
+            <p>$188</p>
+        </div>
+        <div>
+            <p>Shipping</p>
+            <p>calculated at the next step</p>
+        </div>
+        <div>
+        <hr>
+        </div>
+        <div>
+            <p>Total</p>
+            <p>$188</p>
+        </div>
+    </div> -->
+    <!-- </section>
+
+
+    
+
+    </div>
+
+
+    </main>
+    <script src="checkout_payment.js"></script>
+</body>
+</html> --> 

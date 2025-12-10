@@ -1,0 +1,5 @@
+Name : Mens Chinos Slim Fit Pants Flat Front Stretch Skinny Tapered Dress Pants Comfort Casual Solid Trousers
+            Description : Crafted from premium stretch material, these chinos offer exceptional comfort and flexibility, allowing for unrestricted movement throughout the day, whether at work or during leisure activities.
+        price : 2787 EGP
+        sizes : M,L,XL,XXL
+        vendor: coutgo

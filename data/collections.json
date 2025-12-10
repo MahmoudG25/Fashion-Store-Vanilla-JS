@@ -1,0 +1,662 @@
+{
+  "hats": [
+    {
+      "id": 1,
+      "title": "Classic Summer Cap",
+      "images": [
+        "../assets/images/collections/CAPS/CAP1/1 (1).jpg",
+        "../assets/images/collections/CAPS/CAP1/1 (2).jpg",
+        "../assets/images/collections/CAPS/CAP1/1 (3).jpg",
+        "../assets/images/collections/CAPS/CAP1/1 (4).jpg"
+      ],
+      "description": "A perfect blend of fashion and function, this hat adds a touch of charm to any outfit. Crafted with breathable, lightweight material, it's ideal for sunny days or relaxed weekends. The wide brim provides excellent sun protection, while the subtle detailing adds character. Its adjustable band ensures a comfortable fit for most head sizes. Whether you're heading to the beach, the park, or simply running errands, this hat delivers style without effort. It complements both casual and dressy looks, making it a versatile staple in any wardrobe.",
+      "price": 25.75,
+      "vendor": "SunnyWear Co."
+    },
+    {
+      "id": 2,
+      "title": "Urban Sport Cap",
+      "images": [
+        "../assets/images/collections/CAPS/CAP2/1 (3).jpg",
+        "../assets/images/collections/CAPS/CAP2/1 (2).jpg",
+        "../assets/images/collections/CAPS/CAP2/1 (1).jpg",
+        "../assets/images/collections/CAPS/CAP2/1 (4).jpg"
+      ],
+      "description": "A perfect blend of fashion and function, this hat adds a touch of charm to any outfit. Crafted with breathable, lightweight material, it's ideal for sunny days or relaxed weekends. The wide brim provides excellent sun protection, while the subtle detailing adds character. Its adjustable band ensures a comfortable fit for most head sizes. Whether you're heading to the beach, the park, or simply running errands, this hat delivers style without effort. It complements both casual and dressy looks, making it a versatile staple in any wardrobe.",
+      "price": 31.5,
+      "vendor": "SunnyWear Co."
+    },
+    {
+      "id": 3,
+      "title": "Vintage Street Cap",
+      "images": [
+        "../assets/images/collections/CAPS/CAP3/1 (1).jpg",
+        "../assets/images/collections/CAPS/CAP3/1 (2).jpg",
+        "../assets/images/collections/CAPS/CAP3/1 (3).jpg",
+        "../assets/images/collections/CAPS/CAP3/1 (4).jpg"
+      ],
+      "description": "A perfect blend of fashion and function, this hat adds a touch of charm to any outfit. Crafted with breathable, lightweight material, it's ideal for sunny days or relaxed weekends. The wide brim provides excellent sun protection, while the subtle detailing adds character. Its adjustable band ensures a comfortable fit for most head sizes. Whether you're heading to the beach, the park, or simply running errands, this hat delivers style without effort. It complements both casual and dressy looks, making it a versatile staple in any wardrobe.",
+      "price": 37.25,
+      "vendor": "SunnyWear Co."
+    },
+    {
+      "id": 4,
+      "title": "Breeze Comfort Cap",
+      "images": [
+        "../assets/images/collections/CAPS/CAP4/1 (1).jpg",
+        "../assets/images/collections/CAPS/CAP4/1 (2).jpg",
+        "../assets/images/collections/CAPS/CAP4/1 (3).jpg",
+        "../assets/images/collections/CAPS/CAP4/1 (4).jpg"
+      ],
+      "description": "A perfect blend of fashion and function, this hat adds a touch of charm to any outfit. Crafted with breathable, lightweight material, it's ideal for sunny days or relaxed weekends. The wide brim provides excellent sun protection, while the subtle detailing adds character. Its adjustable band ensures a comfortable fit for most head sizes. Whether you're heading to the beach, the park, or simply running errands, this hat delivers style without effort. It complements both casual and dressy looks, making it a versatile staple in any wardrobe.",
+      "price": 43.0,
+      "vendor": "SunnyWear Co."
+    },
+    {
+      "id": 5,
+      "title": "Sunset Casual Cap",
+      "images": [
+        "../assets/images/collections/CAPS/CAP5/1 (1).jpg",
+        "../assets/images/collections/CAPS/CAP5/1 (2).jpg",
+        "../assets/images/collections/CAPS/CAP5/1 (3).jpg",
+        "../assets/images/collections/CAPS/CAP5/1 (4).jpg"
+      ],
+      "description": "A perfect blend of fashion and function, this hat adds a touch of charm to any outfit. Crafted with breathable, lightweight material, it's ideal for sunny days or relaxed weekends. The wide brim provides excellent sun protection, while the subtle detailing adds character. Its adjustable band ensures a comfortable fit for most head sizes. Whether you're heading to the beach, the park, or simply running errands, this hat delivers style without effort. It complements both casual and dressy looks, making it a versatile staple in any wardrobe.",
+      "price": 48.75,
+      "vendor": "SunnyWear Co."
+    },
+    {
+      "id": 6,
+      "title": "Premium Shadow Cap",
+      "images": [
+        "../assets/images/collections/CAPS/CAP6/1 (1).jpg",
+        "../assets/images/collections/CAPS/CAP6/1 (2).jpg",
+        "../assets/images/collections/CAPS/CAP6/1 (3).jpg",
+        "../assets/images/collections/CAPS/CAP6/1 (4).jpg"
+      ],
+      "description": "A perfect blend of fashion and function, this hat adds a touch of charm to any outfit. Crafted with breathable, lightweight material, it's ideal for sunny days or relaxed weekends. The wide brim provides excellent sun protection, while the subtle detailing adds character. Its adjustable band ensures a comfortable fit for most head sizes. Whether you're heading to the beach, the park, or simply running errands, this hat delivers style without effort. It complements both casual and dressy looks, making it a versatile staple in any wardrobe.",
+      "price": 54.5,
+      "vendor": "SunnyWear Co."
+    },
+    {
+      "id": 7,
+      "title": "Coastal Adventure Cap",
+      "images": [
+        "../assets/images/collections/CAPS/CAP7/1 (1).jpg",
+        "../assets/images/collections/CAPS/CAP7/1 (2).jpg",
+        "../assets/images/collections/CAPS/CAP7/1 (3).jpg",
+        "../assets/images/collections/CAPS/CAP7/1 (4).jpg"
+      ],
+      "description": "A perfect blend of fashion and function, this hat adds a touch of charm to any outfit. Crafted with breathable, lightweight material, it's ideal for sunny days or relaxed weekends. The wide brim provides excellent sun protection, while the subtle detailing adds character. Its adjustable band ensures a comfortable fit for most head sizes. Whether you're heading to the beach, the park, or simply running errands, this hat delivers style without effort. It complements both casual and dressy looks, making it a versatile staple in any wardrobe.",
+      "price": 60.25,
+      "vendor": "SunnyWear Co."
+    },
+    {
+      "id": 8,
+      "title": "Night Rider Cap",
+      "images": [
+        "../assets/images/collections/CAPS/CAP8/1 (4).jpg",
+        "../assets/images/collections/CAPS/CAP8/1 (3).jpg",
+        "../assets/images/collections/CAPS/CAP8/1 (2).jpg",
+        "../assets/images/collections/CAPS/CAP8/1 (1).jpg"
+      ],
+      "description": "A perfect blend of fashion and function, this hat adds a touch of charm to any outfit. Crafted with breathable, lightweight material, it's ideal for sunny days or relaxed weekends. The wide brim provides excellent sun protection, while the subtle detailing adds character. Its adjustable band ensures a comfortable fit for most head sizes. Whether you're heading to the beach, the park, or simply running errands, this hat delivers style without effort. It complements both casual and dressy looks, making it a versatile staple in any wardrobe.",
+      "price": 66.0,
+      "vendor": "SunnyWear Co."
+    },
+    {
+      "id": 9,
+      "title": "Royal Trend Cap",
+      "images": [
+        "../assets/images/collections/CAPS/CAP9/1 (1).jpg",
+        "../assets/images/collections/CAPS/CAP9/1 (2).jpg",
+        "../assets/images/collections/CAPS/CAP9/1 (3).jpg",
+        "../assets/images/collections/CAPS/CAP9/1 (4).jpg"
+      ],
+      "description": "A perfect blend of fashion and function, this hat adds a touch of charm to any outfit. Crafted with breathable, lightweight material, it's ideal for sunny days or relaxed weekends. The wide brim provides excellent sun protection, while the subtle detailing adds character. Its adjustable band ensures a comfortable fit for most head sizes. Whether you're heading to the beach, the park, or simply running errands, this hat delivers style without effort. It complements both casual and dressy looks, making it a versatile staple in any wardrobe.",
+      "price": 71.75,
+      "vendor": "SunnyWear Co."
+    },
+    {
+      "id": 10,
+      "title": "Elite Fashion Cap",
+      "images": [
+        "../assets/images/collections/CAPS/CAP10/1 (1).jpg",
+        "../assets/images/collections/CAPS/CAP10/1 (2).jpg",
+        "../assets/images/collections/CAPS/CAP10/1 (3).jpg",
+        "../assets/images/collections/CAPS/CAP10/1 (4).jpg"
+      ],
+      "description": "A perfect blend of fashion and function, this hat adds a touch of charm to any outfit. Crafted with breathable, lightweight material, it's ideal for sunny days or relaxed weekends. The wide brim provides excellent sun protection, while the subtle detailing adds character. Its adjustable band ensures a comfortable fit for most head sizes. Whether you're heading to the beach, the park, or simply running errands, this hat delivers style without effort. It complements both casual and dressy looks, making it a versatile staple in any wardrobe.",
+      "price": 77.5,
+      "vendor": "SunnyWear Co."
+    }
+  ],
+  "shoes": [
+    {
+      "id": 11,
+      "title": "Comfort Walk Sneakers",
+      "images": [
+        "../assets/images/collections/shoes/shoe_1/black/1.jpg",
+        "../assets/images/collections/shoes/shoe_1/black/2.jpg",
+        "../assets/images/collections/shoes/shoe_1/black/3.jpg",
+        "../assets/images/collections/shoes/shoe_1/black/4.jpg"
+      ],
+      "description": "Built for style and all-day comfort, these shoes are a top pick for anyone who values both appearance and function. The ergonomic design supports natural foot movement, while the cushioned insole provides relief during long walks. Premium materials make them durable yet breathable, perfect for daily wear or weekend adventures. Their sleek profile and modern colors make them easy to pair with any outfit. Anti-slip soles offer added safety, and reinforced stitching guarantees longevity. Whether you're heading to work, traveling, or relaxing, these shoes provide reliable performance and a stylish look you’ll love.",
+      "price": 25.75,
+      "vendor": "StrideMaster"
+    },
+    {
+      "id": 12,
+      "title": "Active Flex Sneakers",
+      "images": [
+        "../assets/images/collections/shoes/shoe_2/1.jpg",
+        "../assets/images/collections/shoes/shoe_2/2.jpg",
+        "../assets/images/collections/shoes/shoe_2/3.jpg",
+        "../assets/images/collections/shoes/shoe_2/4.jpg"
+      ],
+      "description": "Built for style and all-day comfort, these shoes are a top pick for anyone who values both appearance and function. The ergonomic design supports natural foot movement, while the cushioned insole provides relief during long walks. Premium materials make them durable yet breathable, perfect for daily wear or weekend adventures. Their sleek profile and modern colors make them easy to pair with any outfit. Anti-slip soles offer added safety, and reinforced stitching guarantees longevity. Whether you're heading to work, traveling, or relaxing, these shoes provide reliable performance and a stylish look you’ll love.",
+      "price": 31.5,
+      "vendor": "StrideMaster"
+    },
+    {
+      "id": 13,
+      "title": "Urban Runner Sneakers",
+      "images": [
+        "../assets/images/collections/shoes/shoe_3/1.jpg",
+        "../assets/images/collections/shoes/shoe_3/2.jpg",
+        "../assets/images/collections/shoes/shoe_3/3.jpg",
+        "../assets/images/collections/shoes/shoe_3/4.jpg"
+      ],
+      "description": "Built for style and all-day comfort, these shoes are a top pick for anyone who values both appearance and function. The ergonomic design supports natural foot movement, while the cushioned insole provides relief during long walks. Premium materials make them durable yet breathable, perfect for daily wear or weekend adventures. Their sleek profile and modern colors make them easy to pair with any outfit. Anti-slip soles offer added safety, and reinforced stitching guarantees longevity. Whether you're heading to work, traveling, or relaxing, these shoes provide reliable performance and a stylish look you’ll love.",
+      "price": 37.25,
+      "vendor": "StrideMaster"
+    },
+    {
+      "id": 14,
+      "title": "Air Step Sneakers",
+      "images": [
+        "../assets/images/collections/shoes/shoe_4/1.jpg",
+        "../assets/images/collections/shoes/shoe_4/2.jpg",
+        "../assets/images/collections/shoes/shoe_4/3.jpg",
+        "../assets/images/collections/shoes/shoe_4/4.jpg"
+      ],
+      "description": "Built for style and all-day comfort, these shoes are a top pick for anyone who values both appearance and function. The ergonomic design supports natural foot movement, while the cushioned insole provides relief during long walks. Premium materials make them durable yet breathable, perfect for daily wear or weekend adventures. Their sleek profile and modern colors make them easy to pair with any outfit. Anti-slip soles offer added safety, and reinforced stitching guarantees longevity. Whether you're heading to work, traveling, or relaxing, these shoes provide reliable performance and a stylish look you’ll love.",
+      "price": 43.0,
+      "vendor": "StrideMaster"
+    },
+    {
+      "id": 15,
+      "title": "Ultra Cushion Sneakers",
+      "images": [
+        "../assets/images/collections/shoes/shoe_5/1.jpg",
+        "../assets/images/collections/shoes/shoe_5/2.jpg",
+        "../assets/images/collections/shoes/shoe_5/3.jpg",
+        "../assets/images/collections/shoes/shoe_5/4.jpg"
+      ],
+      "description": "Built for style and all-day comfort, these shoes are a top pick for anyone who values both appearance and function. The ergonomic design supports natural foot movement, while the cushioned insole provides relief during long walks. Premium materials make them durable yet breathable, perfect for daily wear or weekend adventures. Their sleek profile and modern colors make them easy to pair with any outfit. Anti-slip soles offer added safety, and reinforced stitching guarantees longevity. Whether you're heading to work, traveling, or relaxing, these shoes provide reliable performance and a stylish look you’ll love.",
+      "price": 48.75,
+      "vendor": "StrideMaster"
+    },
+    {
+      "id": 16,
+      "title": "Street Motion Sneakers",
+      "images": [
+        "../assets/images/collections/shoes/shoe_6/1.jpg",
+        "../assets/images/collections/shoes/shoe_6/2.jpg",
+        "../assets/images/collections/shoes/shoe_6/3.jpg",
+        "../assets/images/collections/shoes/shoe_6/4.jpg"
+      ],
+      "description": "Built for style and all-day comfort, these shoes are a top pick for anyone who values both appearance and function. The ergonomic design supports natural foot movement, while the cushioned insole provides relief during long walks. Premium materials make them durable yet breathable, perfect for daily wear or weekend adventures. Their sleek profile and modern colors make them easy to pair with any outfit. Anti-slip soles offer added safety, and reinforced stitching guarantees longevity. Whether you're heading to work, traveling, or relaxing, these shoes provide reliable performance and a stylish look you’ll love.",
+      "price": 54.5,
+      "vendor": "StrideMaster"
+    },
+    {
+      "id": 17,
+      "title": "Pro Mobility Sneakers",
+      "images": [
+        "../assets/images/collections/shoes/shoe_7/1.jpg",
+        "../assets/images/collections/shoes/shoe_7/2.jpg",
+        "../assets/images/collections/shoes/shoe_7/3.jpg",
+        "../assets/images/collections/shoes/shoe_7/4.jpg"
+      ],
+      "description": "Built for style and all-day comfort, these shoes are a top pick for anyone who values both appearance and function. The ergonomic design supports natural foot movement, while the cushioned insole provides relief during long walks. Premium materials make them durable yet breathable, perfect for daily wear or weekend adventures. Their sleek profile and modern colors make them easy to pair with any outfit. Anti-slip soles offer added safety, and reinforced stitching guarantees longevity. Whether you're heading to work, traveling, or relaxing, these shoes provide reliable performance and a stylish look you’ll love.",
+      "price": 60.25,
+      "vendor": "StrideMaster"
+    },
+    {
+      "id": 18,
+      "title": "Trail Master Sneakers",
+      "images": [
+        "../assets/images/collections/shoes/shoe_8/1.jpg",
+        "../assets/images/collections/shoes/shoe_8/2.jpg",
+        "../assets/images/collections/shoes/shoe_8/3.jpg",
+        "../assets/images/collections/shoes/shoe_8/4.jpg"
+      ],
+      "description": "Built for style and all-day comfort, these shoes are a top pick for anyone who values both appearance and function. The ergonomic design supports natural foot movement, while the cushioned insole provides relief during long walks. Premium materials make them durable yet breathable, perfect for daily wear or weekend adventures. Their sleek profile and modern colors make them easy to pair with any outfit. Anti-slip soles offer added safety, and reinforced stitching guarantees longevity. Whether you're heading to work, traveling, or relaxing, these shoes provide reliable performance and a stylish look you’ll love.",
+      "price": 66.0,
+      "vendor": "StrideMaster"
+    },
+    {
+      "id": 19,
+      "title": "High Performance Sneakers",
+      "images": [
+        "../assets/images/collections/shoes/shoe_9/1.jpg",
+        "../assets/images/collections/shoes/shoe_9/2.jpg",
+        "../assets/images/collections/shoes/shoe_9/3.jpg",
+        "../assets/images/collections/shoes/shoe_9/4.jpg"
+      ],
+      "description": "Built for style and all-day comfort, these shoes are a top pick for anyone who values both appearance and function. The ergonomic design supports natural foot movement, while the cushioned insole provides relief during long walks. Premium materials make them durable yet breathable, perfect for daily wear or weekend adventures. Their sleek profile and modern colors make them easy to pair with any outfit. Anti-slip soles offer added safety, and reinforced stitching guarantees longevity. Whether you're heading to work, traveling, or relaxing, these shoes provide reliable performance and a stylish look you’ll love.",
+      "price": 71.75,
+      "vendor": "StrideMaster"
+    },
+    {
+      "id": 20,
+      "title": "Green Motion Sneakers",
+      "images": [
+        "../assets/images/collections/shoes/shoe_10/green/1.jpg",
+        "../assets/images/collections/shoes/shoe_10/green/2.jpg",
+        "../assets/images/collections/shoes/shoe_10/green/3.jpg",
+        "../assets/images/collections/shoes/shoe_10/green/4.jpg"
+      ],
+      "description": "Built for style and all-day comfort, these shoes are a top pick for anyone who values both appearance and function. The ergonomic design supports natural foot movement, while the cushioned insole provides relief during long walks. Premium materials make them durable yet breathable, perfect for daily wear or weekend adventures. Their sleek profile and modern colors make them easy to pair with any outfit. Anti-slip soles offer added safety, and reinforced stitching guarantees longevity. Whether you're heading to work, traveling, or relaxing, these shoes provide reliable performance and a stylish look you’ll love.",
+      "price": 77.5,
+      "vendor": "StrideMaster"
+    }
+  ],
+  "trousers": [
+    {
+      "id": 21,
+      "title": "Smart Fit Classic Pants",
+      "images": [
+        "../assets/images/collections/trousers/trouser_1/trousers1_1.jpg",
+        "../assets/images/collections/trousers/trouser_1/trousers1_2.jpg",
+        "../assets/images/collections/trousers/trouser_1/trousers1_3.jpg",
+        "../assets/images/collections/trousers/trouser_1/trousers1_4.jpg"
+      ],
+      "description": "These trousers redefine everyday comfort with a modern twist. Designed with a tailored fit, they offer a polished look while maintaining flexibility and ease of movement. The fabric is breathable and wrinkle-resistant, making them suitable for both office hours and casual outings. Featuring a classic waistband and deep pockets, they provide functionality without compromising style. Perfect for pairing with shirts, sweaters, or blazers, these trousers are as adaptable as they are stylish. Easy to care for and built to last, they’re a wardrobe essential.",
+      "price": 25.75,
+      "vendor": "Modern Tailor"
+    },
+    {
+      "id": 22,
+      "title": "Modern Comfort Pants",
+      "images": [
+        "../assets/images/collections/trousers/trouser_2/trousers2_1.jpg",
+        "../assets/images/collections/trousers/trouser_2/trousers2_2.jpg",
+        "../assets/images/collections/trousers/trouser_2/trousers2_3.jpg",
+        "../assets/images/collections/trousers/trouser_2/trousers2_4.jpg"
+      ],
+      "description": "These trousers redefine everyday comfort with a modern twist. Designed with a tailored fit, they offer a polished look while maintaining flexibility and ease of movement. The fabric is breathable and wrinkle-resistant, making them suitable for both office hours and casual outings. Featuring a classic waistband and deep pockets, they provide functionality without compromising style. Perfect for pairing with shirts, sweaters, or blazers, these trousers are as adaptable as they are stylish. Easy to care for and built to last, they’re a wardrobe essential.",
+      "price": 31.5,
+      "vendor": "Modern Tailor"
+    },
+    {
+      "id": 23,
+      "title": "Tailored Stretch Pants",
+      "images": [
+        "../assets/images/collections/trousers/trouser_3/trousers3_1.jpg",
+        "../assets/images/collections/trousers/trouser_3/trousers3_2.jpg",
+        "../assets/images/collections/trousers/trouser_3/trousers3_3.jpg",
+        "../assets/images/collections/trousers/trouser_3/trousers3_4.jpg"
+      ],
+      "description": "These trousers redefine everyday comfort with a modern twist. Designed with a tailored fit, they offer a polished look while maintaining flexibility and ease of movement. The fabric is breathable and wrinkle-resistant, making them suitable for both office hours and casual outings. Featuring a classic waistband and deep pockets, they provide functionality without compromising style. Perfect for pairing with shirts, sweaters, or blazers, these trousers are as adaptable as they are stylish. Easy to care for and built to last, they’re a wardrobe essential.",
+      "price": 37.25,
+      "vendor": "Modern Tailor"
+    },
+    {
+      "id": 24,
+      "title": "Urban Flex Pants",
+      "images": [
+        "../assets/images/collections/trousers/trouser_4/trousers4_1.jpg",
+        "../assets/images/collections/trousers/trouser_4/trousers4_2.jpg",
+        "../assets/images/collections/trousers/trouser_4/trousers4_3.jpg",
+        "../assets/images/collections/trousers/trouser_4/trousers4_4.jpg"
+      ],
+      "description": "These trousers redefine everyday comfort with a modern twist. Designed with a tailored fit, they offer a polished look while maintaining flexibility and ease of movement. The fabric is breathable and wrinkle-resistant, making them suitable for both office hours and casual outings. Featuring a classic waistband and deep pockets, they provide functionality without compromising style. Perfect for pairing with shirts, sweaters, or blazers, these trousers are as adaptable as they are stylish. Easy to care for and built to last, they’re a wardrobe essential.",
+      "price": 43.0,
+      "vendor": "Modern Tailor"
+    },
+    {
+      "id": 25,
+      "title": "Premium Office Pants",
+      "images": [
+        "../assets/images/collections/trousers/trouser_5/trousers5_1.jpg",
+        "../assets/images/collections/trousers/trouser_5/trousers5_2.jpg",
+        "../assets/images/collections/trousers/trouser_5/trousers5_3.jpg",
+        "../assets/images/collections/trousers/trouser_5/trousers5_4.jpg"
+      ],
+      "description": "These trousers redefine everyday comfort with a modern twist. Designed with a tailored fit, they offer a polished look while maintaining flexibility and ease of movement. The fabric is breathable and wrinkle-resistant, making them suitable for both office hours and casual outings. Featuring a classic waistband and deep pockets, they provide functionality without compromising style. Perfect for pairing with shirts, sweaters, or blazers, these trousers are as adaptable as they are stylish. Easy to care for and built to last, they’re a wardrobe essential.",
+      "price": 48.75,
+      "vendor": "Modern Tailor"
+    },
+    {
+      "id": 26,
+      "title": "Sleek Everyday Pants",
+      "images": [
+        "../assets/images/collections/trousers/trouser_6/trousers6_1.jpg",
+        "../assets/images/collections/trousers/trouser_6/trousers6_2.jpg",
+        "../assets/images/collections/trousers/trouser_6/trousers6_3.jpg",
+        "../assets/images/collections/trousers/trouser_6/trousers6_4.jpg"
+      ],
+      "description": "These trousers redefine everyday comfort with a modern twist. Designed with a tailored fit, they offer a polished look while maintaining flexibility and ease of movement. The fabric is breathable and wrinkle-resistant, making them suitable for both office hours and casual outings. Featuring a classic waistband and deep pockets, they provide functionality without compromising style. Perfect for pairing with shirts, sweaters, or blazers, these trousers are as adaptable as they are stylish. Easy to care for and built to last, they’re a wardrobe essential.",
+      "price": 54.5,
+      "vendor": "Modern Tailor"
+    },
+    {
+      "id": 27,
+      "title": "Advanced Stretch Pants",
+      "images": [
+        "../assets/images/collections/trousers/trouser_7/trousers7_1.jpg",
+        "../assets/images/collections/trousers/trouser_7/trousers7_2.jpg",
+        "../assets/images/collections/trousers/trouser_7/trousers7_3.jpg",
+        "../assets/images/collections/trousers/trouser_7/trousers7_4.jpg"
+      ],
+      "description": "These trousers redefine everyday comfort with a modern twist. Designed with a tailored fit, they offer a polished look while maintaining flexibility and ease of movement. The fabric is breathable and wrinkle-resistant, making them suitable for both office hours and casual outings. Featuring a classic waistband and deep pockets, they provide functionality without compromising style. Perfect for pairing with shirts, sweaters, or blazers, these trousers are as adaptable as they are stylish. Easy to care for and built to last, they’re a wardrobe essential.",
+      "price": 60.25,
+      "vendor": "Modern Tailor"
+    },
+    {
+      "id": 28,
+      "title": "Executive Style Pants",
+      "images": [
+        "../assets/images/collections/trousers/trouser_8/trousers8_1.jpg",
+        "../assets/images/collections/trousers/trouser_8/trousers8_2.jpg",
+        "../assets/images/collections/trousers/trouser_8/trousers8_3.jpg",
+        "../assets/images/collections/trousers/trouser_8/trousers8_4.jpg"
+      ],
+      "description": "These trousers redefine everyday comfort with a modern twist. Designed with a tailored fit, they offer a polished look while maintaining flexibility and ease of movement. The fabric is breathable and wrinkle-resistant, making them suitable for both office hours and casual outings. Featuring a classic waistband and deep pockets, they provide functionality without compromising style. Perfect for pairing with shirts, sweaters, or blazers, these trousers are as adaptable as they are stylish. Easy to care for and built to last, they’re a wardrobe essential.",
+      "price": 66.0,
+      "vendor": "Modern Tailor"
+    },
+    {
+      "id": 29,
+      "title": "Sharp Look Chinos",
+      "images": [
+        "../assets/images/collections/trousers/trouser_9/trousers9_1.jpg",
+        "../assets/images/collections/trousers/trouser_9/trousers9_2.jpg",
+        "../assets/images/collections/trousers/trouser_9/trousers9_3.jpg",
+        "../assets/images/collections/trousers/trouser_9/trousers9_4.jpg"
+      ],
+      "description": "These trousers redefine everyday comfort with a modern twist. Designed with a tailored fit, they offer a polished look while maintaining flexibility and ease of movement. The fabric is breathable and wrinkle-resistant, making them suitable for both office hours and casual outings. Featuring a classic waistband and deep pockets, they provide functionality without compromising style. Perfect for pairing with shirts, sweaters, or blazers, these trousers are as adaptable as they are stylish. Easy to care for and built to last, they’re a wardrobe essential.",
+      "price": 71.75,
+      "vendor": "Modern Tailor"
+    },
+    {
+      "id": 30,
+      "title": "Elite Tailored Pants",
+      "images": [
+        "../assets/images/collections/trousers/trouser_10/trousers10_1.jpg",
+        "../assets/images/collections/trousers/trouser_10/trousers10_2.jpg",
+        "../assets/images/collections/trousers/trouser_10/trousers10_3.jpg",
+        "../assets/images/collections/trousers/trouser_10/trousers10_4.jpg"
+      ],
+      "description": "These trousers redefine everyday comfort with a modern twist. Designed with a tailored fit, they offer a polished look while maintaining flexibility and ease of movement. The fabric is breathable and wrinkle-resistant, making them suitable for both office hours and casual outings. Featuring a classic waistband and deep pockets, they provide functionality without compromising style. Perfect for pairing with shirts, sweaters, or blazers, these trousers are as adaptable as they are stylish. Easy to care for and built to last, they’re a wardrobe essential.",
+      "price": 77.5,
+      "vendor": "Modern Tailor"
+    }
+  ],
+  "dresses": [
+    {
+      "id": 31,
+      "title": "Elegant Classic Dress",
+      "images": [
+        "../assets/images/collections/dresses/dress1/blue/img1.jpg",
+        "../assets/images/collections/dresses/dress1/blue/img4.jpg",
+        "../assets/images/collections/dresses/dress1/blue/img3.jpg",
+        "../assets/images/collections/dresses/dress1/blue/img2.jpg"
+      ],
+      "description": "Elegant and effortlessly chic, this dress features a flattering silhouette that suits any body type. The soft fabric glides smoothly over the skin, ensuring comfort throughout the day. Delicate stitching and thoughtful design details, like the subtle waistline and flowing skirt, enhance its feminine charm. Ideal for both casual gatherings and special occasions, this piece pairs well with heels, flats, or even boots. The dress also includes hidden pockets for practicality without disrupting the design. Timeless in form and versatile in use, it’s a staple for any fashion lover.",
+      "price": 25.75,
+      "vendor": "Elegance House"
+    },
+    {
+      "id": 32,
+      "title": "Blossom Pink Dress",
+      "images": [
+        "../assets/images/collections/dresses/dress2/pink/img2.jpg",
+        "../assets/images/collections/dresses/dress2/pink/img1.jpg",
+        "../assets/images/collections/dresses/dress2/pink/img3.jpg",
+        "../assets/images/collections/dresses/dress2/pink/img4.jpg"
+      ],
+      "description": "Elegant and effortlessly chic, this dress features a flattering silhouette that suits any body type. The soft fabric glides smoothly over the skin, ensuring comfort throughout the day. Delicate stitching and thoughtful design details, like the subtle waistline and flowing skirt, enhance its feminine charm. Ideal for both casual gatherings and special occasions, this piece pairs well with heels, flats, or even boots. The dress also includes hidden pockets for practicality without disrupting the design. Timeless in form and versatile in use, it’s a staple for any fashion lover.",
+      "price": 31.5,
+      "vendor": "Elegance House"
+    },
+    {
+      "id": 33,
+      "title": "Midnight Navy Dress",
+      "images": [
+        "../assets/images/collections/dresses/dress3/navy/img1.jpg",
+        "../assets/images/collections/dresses/dress3/navy/img2.jpg",
+        "../assets/images/collections/dresses/dress3/navy/img3.jpg",
+        "../assets/images/collections/dresses/dress3/navy/img4.jpg"
+      ],
+      "description": "Elegant and effortlessly chic, this dress features a flattering silhouette that suits any body type. The soft fabric glides smoothly over the skin, ensuring comfort throughout the day. Delicate stitching and thoughtful design details, like the subtle waistline and flowing skirt, enhance its feminine charm. Ideal for both casual gatherings and special occasions, this piece pairs well with heels, flats, or even boots. The dress also includes hidden pockets for practicality without disrupting the design. Timeless in form and versatile in use, it’s a staple for any fashion lover.",
+      "price": 37.25,
+      "vendor": "Elegance House"
+    },
+    {
+      "id": 34,
+      "title": "Fresh Green Maxi Dress",
+      "images": [
+        "../assets/images/collections/dresses/dress4/green/img1.jpg",
+        "../assets/images/collections/dresses/dress4/green/img2.jpg",
+        "../assets/images/collections/dresses/dress4/green/img2.jpg",
+        "../assets/images/collections/dresses/dress4/green/img4.jpg"
+      ],
+      "description": "Elegant and effortlessly chic, this dress features a flattering silhouette that suits any body type. The soft fabric glides smoothly over the skin, ensuring comfort throughout the day. Delicate stitching and thoughtful design details, like the subtle waistline and flowing skirt, enhance its feminine charm. Ideal for both casual gatherings and special occasions, this piece pairs well with heels, flats, or even boots. The dress also includes hidden pockets for practicality without disrupting the design. Timeless in form and versatile in use, it’s a staple for any fashion lover.",
+      "price": 43.0,
+      "vendor": "Elegance House"
+    },
+    {
+      "id": 35,
+      "title": "Royal Navy Dress",
+      "images": [
+        "../assets/images/collections/dresses/dress5/navy/img1.jpg",
+        "../assets/images/collections/dresses/dress5/navy/img2.jpg",
+        "../assets/images/collections/dresses/dress5/navy/img3.jpg",
+        "../assets/images/collections/dresses/dress5/navy/img4.jpg"
+      ],
+      "description": "Elegant and effortlessly chic, this dress features a flattering silhouette that suits any body type. The soft fabric glides smoothly over the skin, ensuring comfort throughout the day. Delicate stitching and thoughtful design details, like the subtle waistline and flowing skirt, enhance its feminine charm. Ideal for both casual gatherings and special occasions, this piece pairs well with heels, flats, or even boots. The dress also includes hidden pockets for practicality without disrupting the design. Timeless in form and versatile in use, it’s a staple for any fashion lover.",
+      "price": 48.75,
+      "vendor": "Elegance House"
+    },
+    {
+      "id": 36,
+      "title": "Sunset Orange Dress",
+      "images": [
+        "../assets/images/collections/dresses/dress6/orange/img1.jpg",
+        "../assets/images/collections/dresses/dress6/orange/img2.jpg",
+        "../assets/images/collections/dresses/dress6/orange/img3.jpg",
+        "../assets/images/collections/dresses/dress6/orange/img4.jpg"
+      ],
+      "description": "Elegant and effortlessly chic, this dress features a flattering silhouette that suits any body type. The soft fabric glides smoothly over the skin, ensuring comfort throughout the day. Delicate stitching and thoughtful design details, like the subtle waistline and flowing skirt, enhance its feminine charm. Ideal for both casual gatherings and special occasions, this piece pairs well with heels, flats, or even boots. The dress also includes hidden pockets for practicality without disrupting the design. Timeless in form and versatile in use, it’s a staple for any fashion lover.",
+      "price": 54.5,
+      "vendor": "Elegance House"
+    },
+    {
+      "id": 37,
+      "title": "Ruby Red Dress",
+      "images": [
+        "../assets/images/collections/dresses/dress7/red/img1.jpg",
+        "../assets/images/collections/dresses/dress7/red/img2.jpg",
+        "../assets/images/collections/dresses/dress7/red/img3.jpg",
+        "../assets/images/collections/dresses/dress7/red/img4.jpg"
+      ],
+      "description": "Elegant and effortlessly chic, this dress features a flattering silhouette that suits any body type. The soft fabric glides smoothly over the skin, ensuring comfort throughout the day. Delicate stitching and thoughtful design details, like the subtle waistline and flowing skirt, enhance its feminine charm. Ideal for both casual gatherings and special occasions, this piece pairs well with heels, flats, or even boots. The dress also includes hidden pockets for practicality without disrupting the design. Timeless in form and versatile in use, it’s a staple for any fashion lover.",
+      "price": 60.25,
+      "vendor": "Elegance House"
+    },
+    {
+      "id": 38,
+      "title": "Jade Green Dress",
+      "images": [
+        "../assets/images/collections/dresses/dress8/green/img1.jpg",
+        "../assets/images/collections/dresses/dress8/green/img2.jpg",
+        "../assets/images/collections/dresses/dress8/green/img3.jpg",
+        "../assets/images/collections/dresses/dress8/green/img4.jpg"
+      ],
+      "description": "Elegant and effortlessly chic, this dress features a flattering silhouette that suits any body type. The soft fabric glides smoothly over the skin, ensuring comfort throughout the day. Delicate stitching and thoughtful design details, like the subtle waistline and flowing skirt, enhance its feminine charm. Ideal for both casual gatherings and special occasions, this piece pairs well with heels, flats, or even boots. The dress also includes hidden pockets for practicality without disrupting the design. Timeless in form and versatile in use, it’s a staple for any fashion lover.",
+      "price": 66.0,
+      "vendor": "Elegance House"
+    },
+    {
+      "id": 39,
+      "title": "Ocean Blue Dress",
+      "images": [
+        "../assets/images/collections/dresses/dress9/blue/img1.jpg",
+        "../assets/images/collections/dresses/dress9/blue/img2.jpg",
+        "../assets/images/collections/dresses/dress9/blue/img3.jpg",
+        "../assets/images/collections/dresses/dress9/blue/img4.jpg"
+      ],
+      "description": "Elegant and effortlessly chic, this dress features a flattering silhouette that suits any body type. The soft fabric glides smoothly over the skin, ensuring comfort throughout the day. Delicate stitching and thoughtful design details, like the subtle waistline and flowing skirt, enhance its feminine charm. Ideal for both casual gatherings and special occasions, this piece pairs well with heels, flats, or even boots. The dress also includes hidden pockets for practicality without disrupting the design. Timeless in form and versatile in use, it’s a staple for any fashion lover.",
+      "price": 71.75,
+      "vendor": "Elegance House"
+    },
+    {
+      "id": 40,
+      "title": "Golden Sunshine Dress",
+      "images": [
+        "../assets/images/collections/dresses/dress10/yellow/img1.jpg",
+        "../assets/images/collections/dresses/dress10/yellow/img2.jpg",
+        "../assets/images/collections/dresses/dress10/yellow/img3.jpg",
+        "../assets/images/collections/dresses/dress10/yellow/img4.jpg"
+      ],
+      "description": "Elegant and effortlessly chic, this dress features a flattering silhouette that suits any body type. The soft fabric glides smoothly over the skin, ensuring comfort throughout the day. Delicate stitching and thoughtful design details, like the subtle waistline and flowing skirt, enhance its feminine charm. Ideal for both casual gatherings and special occasions, this piece pairs well with heels, flats, or even boots. The dress also includes hidden pockets for practicality without disrupting the design. Timeless in form and versatile in use, it’s a staple for any fashion lover.",
+      "price": 77.5,
+      "vendor": "Elegance House"
+    }
+  ],
+  "jackets": [
+    {
+      "id": 41,
+      "title": "WinterShield Jacket",
+      "images": [
+        "../assets/images/collections/jackets/jacket1/1.jpg",
+        "../assets/images/collections/jackets/jacket1/2.jpg",
+        "../assets/images/collections/jackets/jacket1/3.jpg",
+        "../assets/images/collections/jackets/jacket1/4.jpg"
+      ],
+      "description": "This jacket is designed for both comfort and style, made with premium materials to provide warmth without sacrificing fashion. The sleek cut and durable fabric make it a reliable choice for cold seasons. With functional pockets, a secure zipper, and a versatile look, it's perfect for city outings or countryside escapes. Whether layered over casual wear or paired with dressier outfits, this jacket adapts to your needs. The inner lining offers extra insulation, and the breathable design ensures you stay cozy but never stuffy. A must-have for anyone who appreciates both practicality and elegance in outerwear.",
+      "price": 25.75,
+      "vendor": "UrbanWear Co."
+    },
+    {
+      "id": 42,
+      "title": "StreetGuard Jacket",
+      "images": [
+        "../assets/images/collections/jackets/jacket2/1.jpg",
+        "../assets/images/collections/jackets/jacket2/2.jpg",
+        "../assets/images/collections/jackets/jacket2/3.jpg",
+        "../assets/images/collections/jackets/jacket2/4.jpg"
+      ],
+      "description": "This jacket is designed for both comfort and style, made with premium materials to provide warmth without sacrificing fashion. The sleek cut and durable fabric make it a reliable choice for cold seasons. With functional pockets, a secure zipper, and a versatile look, it's perfect for city outings or countryside escapes. Whether layered over casual wear or paired with dressier outfits, this jacket adapts to your needs. The inner lining offers extra insulation, and the breathable design ensures you stay cozy but never stuffy. A must-have for anyone who appreciates both practicality and elegance in outerwear.",
+      "price": 31.5,
+      "vendor": "UrbanWear Co."
+    },
+    {
+      "id": 43,
+      "title": "FrostLine Jacket",
+      "images": [
+        "../assets/images/collections/jackets/jacket3/1.jpg",
+        "../assets/images/collections/jackets/jacket3/2.jpg",
+        "../assets/images/collections/jackets/jacket3/3.jpg",
+        "../assets/images/collections/jackets/jacket3/4.jpg"
+      ],
+      "description": "This jacket is designed for both comfort and style, made with premium materials to provide warmth without sacrificing fashion. The sleek cut and durable fabric make it a reliable choice for cold seasons. With functional pockets, a secure zipper, and a versatile look, it's perfect for city outings or countryside escapes. Whether layered over casual wear or paired with dressier outfits, this jacket adapts to your needs. The inner lining offers extra insulation, and the breathable design ensures you stay cozy but never stuffy. A must-have for anyone who appreciates both practicality and elegance in outerwear.",
+      "price": 37.25,
+      "vendor": "UrbanWear Co."
+    },
+    {
+      "id": 44,
+      "title": "UrbanHeat Jacket",
+      "images": [
+        "../assets/images/collections/jackets/jacket4/1.jpg",
+        "../assets/images/collections/jackets/jacket4/2.jpg",
+        "../assets/images/collections/jackets/jacket4/3.jpg",
+        "../assets/images/collections/jackets/jacket4/4.jpg"
+      ],
+      "description": "This jacket is designed for both comfort and style, made with premium materials to provide warmth without sacrificing fashion. The sleek cut and durable fabric make it a reliable choice for cold seasons. With functional pockets, a secure zipper, and a versatile look, it's perfect for city outings or countryside escapes. Whether layered over casual wear or paired with dressier outfits, this jacket adapts to your needs. The inner lining offers extra insulation, and the breathable design ensures you stay cozy but never stuffy. A must-have for anyone who appreciates both practicality and elegance in outerwear.",
+      "price": 43.0,
+      "vendor": "UrbanWear Co."
+    },
+    {
+      "id": 45,
+      "title": "ArcticPro Jacket",
+      "images": [
+        "../assets/images/collections/jackets/jacket5/1.jpg",
+        "../assets/images/collections/jackets/jacket5/2.jpg",
+        "../assets/images/collections/jackets/jacket5/3.jpg",
+        "../assets/images/collections/jackets/jacket5/4.jpg"
+      ],
+      "description": "This jacket is designed for both comfort and style, made with premium materials to provide warmth without sacrificing fashion. The sleek cut and durable fabric make it a reliable choice for cold seasons. With functional pockets, a secure zipper, and a versatile look, it's perfect for city outings or countryside escapes. Whether layered over casual wear or paired with dressier outfits, this jacket adapts to your needs. The inner lining offers extra insulation, and the breathable design ensures you stay cozy but never stuffy. A must-have for anyone who appreciates both practicality and elegance in outerwear.",
+      "price": 48.75,
+      "vendor": "UrbanWear Co."
+    },
+    {
+      "id": 46,
+      "title": "StormFlex Jacket",
+      "images": [
+        "../assets/images/collections/jackets/jacket6/1.jpg",
+        "../assets/images/collections/jackets/jacket6/2.jpg",
+        "../assets/images/collections/jackets/jacket6/3.jpg",
+        "../assets/images/collections/jackets/jacket6/4.jpg"
+      ],
+      "description": "This jacket is designed for both comfort and style, made with premium materials to provide warmth without sacrificing fashion. The sleek cut and durable fabric make it a reliable choice for cold seasons. With functional pockets, a secure zipper, and a versatile look, it's perfect for city outings or countryside escapes. Whether layered over casual wear or paired with dressier outfits, this jacket adapts to your needs. The inner lining offers extra insulation, and the breathable design ensures you stay cozy but never stuffy. A must-have for anyone who appreciates both practicality and elegance in outerwear.",
+      "price": 54.5,
+      "vendor": "UrbanWear Co."
+    },
+    {
+      "id": 47,
+      "title": "CityExplorer Jacket",
+      "images": [
+        "../assets/images/collections/jackets/jacket7/1.jpeg",
+        "../assets/images/collections/jackets/jacket7/2.jpg",
+        "../assets/images/collections/jackets/jacket7/3.jpeg",
+        "../assets/images/collections/jackets/jacket7/4.jpg"
+      ],
+      "description": "This jacket is designed for both comfort and style, made with premium materials to provide warmth without sacrificing fashion. The sleek cut and durable fabric make it a reliable choice for cold seasons. With functional pockets, a secure zipper, and a versatile look, it's perfect for city outings or countryside escapes. Whether layered over casual wear or paired with dressier outfits, this jacket adapts to your needs. The inner lining offers extra insulation, and the breathable design ensures you stay cozy but never stuffy. A must-have for anyone who appreciates both practicality and elegance in outerwear.",
+      "price": 60.25,
+      "vendor": "UrbanWear Co."
+    },
+    {
+      "id": 48,
+      "title": "ThermalCore Jacket",
+      "images": [
+        "../assets/images/collections/jackets/jacket8/1.jpg",
+        "../assets/images/collections/jackets/jacket8/2.jpg",
+        "../assets/images/collections/jackets/jacket8/3.jpg",
+        "../assets/images/collections/jackets/jacket8/4.jpg"
+      ],
+      "description": "This jacket is designed for both comfort and style, made with premium materials to provide warmth without sacrificing fashion. The sleek cut and durable fabric make it a reliable choice for cold seasons. With functional pockets, a secure zipper, and a versatile look, it's perfect for city outings or countryside escapes. Whether layered over casual wear or paired with dressier outfits, this jacket adapts to your needs. The inner lining offers extra insulation, and the breathable design ensures you stay cozy but never stuffy. A must-have for anyone who appreciates both practicality and elegance in outerwear.",
+      "price": 66.0,
+      "vendor": "UrbanWear Co."
+    },
+    {
+      "id": 49,
+      "title": "GlacierPeak Jacket",
+      "images": [
+        "../assets/images/collections/jackets/jacket9/1.jpg",
+        "../assets/images/collections/jackets/jacket9/2.jpg",
+        "../assets/images/collections/jackets/jacket9/3.jpg",
+        "../assets/images/collections/jackets/jacket9/4.jpg"
+      ],
+      "description": "This jacket is designed for both comfort and style, made with premium materials to provide warmth without sacrificing fashion. The sleek cut and durable fabric make it a reliable choice for cold seasons. With functional pockets, a secure zipper, and a versatile look, it's perfect for city outings or countryside escapes. Whether layered over casual wear or paired with dressier outfits, this jacket adapts to your needs. The inner lining offers extra insulation, and the breathable design ensures you stay cozy but never stuffy. A must-have for anyone who appreciates both practicality and elegance in outerwear.",
+      "price": 71.75,
+      "vendor": "UrbanWear Co."
+    },
+    {
+      "id": 50,
+      "title": "Premium IceGuard Jacket",
+      "images": [
+        "../assets/images/collections/jackets/jacket10/1.jpg",
+        "../assets/images/collections/jackets/jacket10/2.jpg",
+        "../assets/images/collections/jackets/jacket10/3.jpg",
+        "../assets/images/collections/jackets/jacket10/4.jpg"
+      ],
+      "description": "This jacket is designed for both comfort and style, made with premium materials to provide warmth without sacrificing fashion. The sleek cut and durable fabric make it a reliable choice for cold seasons. With functional pockets, a secure zipper, and a versatile look, it's perfect for city outings or countryside escapes. Whether layered over casual wear or paired with dressier outfits, this jacket adapts to your needs. The inner lining offers extra insulation, and the breathable design ensures you stay cozy but never stuffy. A must-have for anyone who appreciates both practicality and elegance in outerwear.",
+      "price": 77.5,
+      "vendor": "UrbanWear Co."
+    }
+  ]
+}

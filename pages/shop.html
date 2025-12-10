@@ -1,0 +1,53 @@
+<head>
+
+  <link rel="stylesheet" href="../stylesheets/shop.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Shop</h1>
+      <p>Discover our curated collections of stylish and high-quality fashion essentials — from everyday classics to
+        statement pieces, designed to elevate your wardrobe.</p>
+    </header>
+    <div class="content">
+      <aside class="filters">
+        <div class="filter-header">
+          <h4>Filters</h4>
+          <a href="#" class="clear-filters">Clear filters</a>
+        </div>
+        <div class="categories">
+          <h5>Categories</h5>
+          <label><input type="checkbox" value="jackets" /> Jackets</label>
+          <label><input type="checkbox" value="dresses"/> Dresses</label>
+          <label><input type="checkbox" value="shoes" /> Shoes</label>
+          <label><input type="checkbox" value="trousers" /> Trousers</label>
+          <label><input type="checkbox" value="hats" /> hats</label>
+        </div>
+      </aside>
+
+      <div class="prod-load">
+        <div class="search-sort-container">
+          <div class="search-box">
+            <input type="text" id="search-input" placeholder="Search products..." />
+          </div>
+          <div class="sort">
+            <label for="sort">Sort By:</label>
+            <select id="sort">
+              <option>Popular</option>
+              <option>Newest</option>
+              <option>Price</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="product">
+        </div>
+        <div class="load-more">
+          <button>Load more products</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../scripts/shop.js"></script>
+</body>

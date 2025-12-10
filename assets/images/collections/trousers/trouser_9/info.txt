@@ -1,0 +1,6 @@
+Name : Men's Dress Pants Slim Fit Flat Front Casual Business Trousers Classic Gurkha Pants
+            Description : Classic Gurkha style combines traditional and modern elements, ensuring these trousers can transition effortlessly from business meetings to casual outings.
+        price : 2328 EGP
+        sizes : M,L,XL,XXL
+        vendor: satonoaki
+

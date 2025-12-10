@@ -1,0 +1,5 @@
+Name : Men's Corduroy Pants Slim Fit High Waisted Pant Retro Texture Trousers Formal Business Casual Pleated Dress Pant
+            Description : The high-waisted cut provides added comfort and a flattering silhouette, ensuring a secure fit while allowing for effortless movement throughout your day, whether at work or social events.
+        price : 2457 EGP
+        sizes : M,L,XL,XXL
+        vendor: vatwib

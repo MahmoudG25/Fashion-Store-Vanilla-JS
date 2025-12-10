@@ -1,0 +1,6 @@
+Name : Formal Trousers for Men Smart Dress Pants Straight Leg Sweatpants Casual Business Bottoms Work Lounge Wear Suit Pant
+            Description : These trousers seamlessly blend casual and formal aesthetics, making them suitable for various occasions, whether at work or during leisure time, thus addressing the need for a wardrobe staple.
+        sizes : M,L,XL
+        price : 2268 EGP
+        vendor: chums
+

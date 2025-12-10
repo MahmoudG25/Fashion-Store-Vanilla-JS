@@ -1,0 +1,339 @@
+
+body{
+    font-family: 'Public sans' , sans-serif;
+    /* background-color: aqua; */
+}
+
+main{
+    max-width: 1200px;
+    margin: auto;
+    /* background-color: #EFF2F6; */
+}
+
+.cart-container{
+  
+    width: 100%;
+    margin: auto;
+   
+}
+
+
+#cartheader{
+   font-size: 1.5rem;
+   font-weight: 600; 
+   
+   
+  
+}
+#contShopping>a{
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 3;
+    
+    
+
+}
+.prod-order-container{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: auto;
+}
+
+/* Frame 1 */
+
+.frame1{
+    width: 85%;
+    /* background-color: brown; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.img{
+  width:100%;
+   height:100%;
+}
+
+.prodimage1{
+    width: 9.4rem;
+    height: 9.1rem;
+    background-color: gray;
+    
+}
+.inf-prod{
+    width: 50%;
+    height: auto;
+}
+
+.Size>p{
+    margin-top: 2rem;
+}
+
+.Prod-S-P-Q{
+    width: 80%;
+    /* background-color: aliceblue; */
+    line-height: 2.33;
+    margin-left: 5px;
+}
+.Prod-S-P-Q>h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.Prod-S-P-Q>p{
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+.Prod-S-P-Q>.price{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.btnremove{
+    /* background-color: #909090; */
+    width: 23%;
+    position: relative;
+    
+}
+.btnremove>p{
+    width: 90%;
+   font-size: 0.5rem;
+    font-weight: 400;
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+     font-size: 0.8rem;
+    font-weight: 400;
+}
+.btnremove>button{
+    position: absolute;
+    bottom: 0px;
+    left: 85px;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+.btnremove>button:hover{
+    position: absolute;
+    bottom: 0px;
+    left: 85px;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+
+
+/* HR */
+.prod-section>hr{
+    border: 1px solid #909090;
+    margin-top: 5px;
+    width: 82.5%;
+}
+
+
+/* frame 2 */
+
+/* .frame2{
+
+    margin-top: 5px;
+    width: 85%;
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#prodimage2{
+    width: 9.4rem;
+    height: 9.1rem;
+    background-color: gray;
+    
+}
+#inf-prod2{
+    width: 50%;
+    height: auto;
+}
+
+#Size>p{
+    margin-top: 2rem;
+}
+
+#Prod-S-P-Q2{
+    background-color: aliceblue;
+    line-height: 2.33;
+    margin-left: 5px;
+}
+#Prod-S-P-Q2>h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+#Prod-S-P-Q2>p{
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+#Prod-S-P-Q2>#price2{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+#butremove2{
+     width: 23%;
+    position: relative;
+}
+#butremove2>p{
+    width: 90%;
+   font-size: 0.5rem;
+    font-weight: 400;
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+     font-size: 0.8rem;
+    font-weight: 400;
+}
+#butremove2>button{
+    position: absolute;
+    bottom: 0px;
+    left: 85px;
+    background: none;
+    border: none;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 400;
+} */
+
+
+/* ORDER SUMMARY */
+
+.Prod-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.1rem;
+  justify-content: space-evenly;
+}
+
+.prod-section {
+  flex: 1 0 50%; 
+  min-width: 250px;
+  
+}
+
+.OrderSUM {
+  width: 40%; 
+  margin-top: -1rem;
+  
+}
+
+.orderdetails>hr{
+    
+    border: 1px solid #909090;
+    margin-top: 5px;
+    width: 90%;
+
+}
+
+.OrderSUM>h3{
+    font-size: 1.375rem;
+    line-height: 3;
+}
+
+#coupon{
+    width: 90%;
+    height: 4vh;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 0.8rem;
+    padding-left: 15px;
+    }
+
+.ship-total{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.Shipping{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 20px;
+}
+.T-price{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.cal{
+ font-size: 0.8rem;
+ font-weight: 400;
+ opacity: 0.7;
+}
+
+.totalprice{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 10px;
+}
+.Text-sum{
+    font-size: 0.8rem;
+    font-weight: 400;
+
+}
+
+#btncheckout>button{
+    width: 90%;
+    margin-top: 20px;
+    background-color: black;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+    height: 5.5vh;
+}
+
+.order-information{
+    margin-top: 5rem;
+    width: 55%;
+    height: 20.58%;
+}
+
+.hr-parent{
+    border: 1px solid #000000
+}
+
+.hr-child{
+    border: 1px solid #909090
+}
+
+.T-headsum{
+        font-size: 1rem;
+        font-weight: 400;
+        color:#909090;
+}
+
+.T-para{
+        font-size: 1rem;
+        font-weight: 400;
+        color:#909090;
+        margin-top: 10px;
+}
+
+.return>details,
+.shippingopt>details,
+.shippingopt2>details{
+    line-height: 3;
+}
+
+
+.return>details>p,
+.shippingopt>details>p,
+.shippingopt2>details>p{
+    line-height: 1.5;
+    width: 100%;
+}
+
+
+
+
+

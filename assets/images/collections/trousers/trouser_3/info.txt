@@ -1,0 +1,5 @@
+Name : Pants Pocket Color Pure Trousers Men's Casual Trousers Drawstring Sweatpants Baggy Pockets Trousers
+            Description : The drawstring waistband offers adjustable comfort, while the baggy style provides freedom of movement, making them ideal for everyday wear.
+        sizes : 32,36,38
+        price : 3451 EGP
+        vendor: febecool

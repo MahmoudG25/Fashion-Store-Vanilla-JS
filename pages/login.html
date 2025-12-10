@@ -1,0 +1,76 @@
+
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../stylesheets/login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-left">
+        <h2>Power Starts Here — Log In with Confidence</h2>
+        <img src="../assets/images/signup_in/333333333.jpg" alt="li" />
+      </div>
+
+      <div class="main-form">
+        <div class="header-form">
+          <h1>Login</h1>
+          <p>Welcome back! Please enter your details to log in.</p>
+        </div>
+        <form>
+          <div class="mail-container">
+            <div class="input-group">
+              <input type="email" id="email" name="email" placeholder=" " />
+              <label for="email">Email</label>
+              <p id="emailAlert"></p>
+            </div>
+            <!-- ------------------------------------ -->
+          </div>
+          <div class="input-group full-width password-group">
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder=" "
+            />
+            <label for="password">Password</label>
+            <span
+              class="toggle-pass"
+              onclick="togglePassword('password', this)"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="22"
+                height="22"
+                fill="none"
+                stroke="black"
+                stroke-width="2"
+              >
+                <path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7S1 12 1 12z" />
+                <circle cx="12" cy="12" r="3" />
+              </svg>
+            </span>
+
+            <p id="passAlert"></p>
+          </div>
+
+          <div class="checkbox-remember">
+            <label>
+              <input type="checkbox" />
+              Remember me
+            </label>
+            <a href="#">Forgot password?</a>
+          </div>
+          <button class="loginBtn">Login</button>
+
+          <div class="check-have-account">
+            <p>Don't have an account? <a href="#signup">Sign Up</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="../scripts/login.js"></script>
+  </body>
+

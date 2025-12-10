@@ -1,0 +1,125 @@
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Public+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../stylesheets/signup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-left">
+        <h2>Where Elegance Meets Identity — Sign Up to Begin</h2>
+        <img src="../assets/images/signup_in/222222.jpg" alt="li" />
+      </div>
+
+      <div class="main-form">
+        <div class="header-form">
+          <h1>Sign up</h1>
+          <p>
+            Let’s get you all set up so you can access your personal account.
+          </p>
+        </div>
+
+        <form class="form">
+          <div class="name-container">
+            <div class="input-group">
+              <input type="text" id="fname" name="fname" placeholder=" " />
+              <label for="fname">First Name</label>
+              <p id="FnameAlert"></p>
+            </div>
+            <div class="input-group">
+              <input type="text" id="lname" name="lname" placeholder=" " />
+              <label for="lname">Last Name</label>
+              <p id="LnameAlert"></p>
+            </div>
+          </div>
+
+          <div class="mailPhone-container">
+            <div class="input-group">
+              <input type="email" id="email" name="email" placeholder=" " />
+              <label for="email">Email</label>
+              <p id="emailAlert"></p>
+            </div>
+            <div class="input-group">
+              <input type="tel" id="phone" name="phone" placeholder=" " />
+              <label for="phone">Phone Number</label>
+              <p id="phoneAlert"></p>
+            </div>
+            <!-- ------------------------------------ -->
+          </div>
+          <div class="input-group full-width password-group">
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder=" "
+            />
+            <label for="password">Password</label>
+            <span
+              class="toggle-pass"
+              onclick="togglePassword('password', this)"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="22"
+                height="22"
+                fill="none"
+                stroke="black"
+                stroke-width="2"
+              >
+                <path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7S1 12 1 12z" />
+                <circle cx="12" cy="12" r="3" />
+              </svg>
+            </span>
+            <p id="passAlert"></p>
+          </div>
+
+          <div class="input-group full-width password-group">
+            <input
+              type="password"
+              id="confirmPass"
+              name="confirmPass"
+              placeholder=" "
+            />
+            <label for="confirmPass">Confirm Password</label>
+            <span
+              class="toggle-pass"
+              onclick="togglePassword('confirmPass', this)"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="22"
+                height="22"
+                fill="none"
+                stroke="black"
+                stroke-width="2"
+              >
+                <path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7S1 12 1 12z" />
+                <circle cx="12" cy="12" r="3" />
+              </svg>
+            </span>
+            <p id="confirmPassAlert"></p>
+          </div>
+
+          <label class="checkbox-container">
+            <input type="checkbox" id="checkBox" />
+            <span
+              >I agree to all the <a href="#">Terms</a> and
+              <a href="#">Privacy Policies</a></span
+            >
+            <p id="checkBoxAlert"></p>
+          </label>
+
+          <button type="submit" class="createAccount">Create Account</button>
+
+          <div class="check-have-account">
+            <p>Already have an account? <a href="#login">Login</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="../scripts/signup.js"></script>
+  </body>

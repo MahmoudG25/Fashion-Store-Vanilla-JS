@@ -1,0 +1,6 @@
+Name : Men's Pants Classic Work Dress Pants Casual Pants Lightweight Slim Fit Trousers Dress for Men
+            Description : Crafted from lightweight materials, these trousers provide all-day comfort and breathability, ensuring you stay cool and flexible during long hours.
+        price : 1944 EGP
+        sizes : M,L,XL,XXL
+        vendor: jiancw
+

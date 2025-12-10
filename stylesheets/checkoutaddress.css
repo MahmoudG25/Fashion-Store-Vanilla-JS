@@ -1,0 +1,371 @@
+main{
+    padding: 5% 10%;
+    font-family: "Public Sans", sans-serif;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fbfcfc;
+    /* align-items: center; */
+}
+button,input[type="submit"]
+{background-color: black;
+color: white;}
+
+button,input[type="submit"]:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+#checkout_progress>#highlighted{font-weight: bold;}
+#checkout_progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28vw;
+}
+.checkout_step{
+    font-size: 1em;
+}
+.horizontal_line{
+    border-bottom: 0.25vh solid black;
+    flex: 1;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#shipping_info{
+    max-width: 32%;
+    box-sizing: border-box;
+    /* margin: 2em ; */
+    /* padding: 1em; */
+    gap: 10px;
+    position: relative;
+    min-width: 20vw;
+}
+#shipping_info>div>*{
+    /* max-width: 50vw; */
+    min-width: 3vw;
+    margin: 0.1rem;
+}
+
+.user_name{
+    display: flex;
+    flex-direction: row;
+}
+.dropdown_address{
+    display: flex;
+    flex-direction: row;
+
+}
+.dropdown_address>input{
+    max-width:6.55vw;
+}
+.row{
+      display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+.save_checkbox{
+    justify-content: left;
+}
+
+.item{
+    display: flex;
+    align-items:end;
+}
+.item>div{
+    margin: 0.5em 0.5em 0.5em 0;
+}
+.item>div>div>p{
+    display: inline-block;
+    margin: 0;
+}
+.item>div>a{
+    text-decoration: underline;
+    color: black;
+}
+.item>div>h4{
+    margin: 0.7em 0;
+}
+.vendor{
+    text-align: right;
+    padding-left: 3em;
+}
+
+.item_details{
+    display: flex;
+    flex-direction: column;
+    
+}
+.item>hr{
+    width: 200px
+}
+.coupon>input{
+    width: 100%;
+}
+.fees{
+    display: flex;
+    flex-direction: column;
+}
+.fees>div{display: flex;
+justify-content: space-between;
+}
+.fees>div>hr{
+    width: 100%;
+}
+
+.shipping_types>div{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: center;
+    min-width: 29%;
+    margin: 5%;
+    background-color: white;
+}
+
+
+.shipping_types>div:nth-child(3){
+    visibility: hidden;
+}
+
+.shipping_types>div>div>p, .shipping_types>div>div>h4{
+    margin: .5em 0.5em;
+}
+.shipping_types>div input[type='submit']{
+    width: 100%;
+    height: 3.5vh;
+}
+.payment_types{
+    display: flex;
+    justify-content: left;
+}
+.payment_types>button{
+    background-color: white;
+    padding-top: 5px;
+    margin: 5px;
+    width:11vw;
+}
+.payment_types>button:first-child{
+    border-width: 1px; 
+    border-color: cyan;
+}
+.payment_types>button:nth-child(2){
+    border-width: 1px;
+    background-color: black;
+    color: white;
+}
+
+.payment_details{
+    display: flex;
+    flex-direction: column;
+    width: 22vw;
+}
+.payment_details *{
+    width: 100%;
+    height: 3.5vh;
+    margin: 5px;
+}
+.payment_details>.cardsecurity{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 2px 0;
+    
+}
+.payment_details>.cardsecurity *{
+    height: 3.5vh;
+}
+.payment_details>.cardsecurity>.cardcvc>input{
+    height: 2.8vh;
+    width: 110%;
+    
+}
+.payment_details>.carddata{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* font-size: 0.75em; */
+    margin: 5px;
+
+}
+
+.payment_details>.carddata *{
+    font-size: 0.9em;
+    height: 60%;
+    padding: 0;
+    margin: 10px;
+}
+
+#paynow{
+    width: 102%;
+}
+.fade_in{
+    
+    transition-duration: 0.5s;
+}
+
+.cart-container{
+  
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.Prod-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0rem;
+  justify-content: space-evenly;
+  /* height: 12vh; */
+}
+
+.prod-section {
+  flex: 1 0 50%; 
+  min-width: 250px;
+  /* height: 10vh; */
+}
+
+.OrderSUM {
+  flex: 1 0 40%; 
+  margin-top: -1rem;
+  
+}
+
+.orderdetails>hr{
+    
+    border: 1px solid #909090;
+    /* margin-top: 5px; */
+    width: 90%;
+
+}
+
+.OrderSUM>h3{
+    font-size: 1.375rem;
+    /* line-height: 3; */
+}
+
+#coupon{
+    width: 90%;
+    height: 4vh;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 0.8rem;
+    padding-left: 15px;
+    }
+
+.ship-total{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    /* margin-top: 20px; */
+}
+
+.Shipping{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    /* margin-top: 20px; */
+}
+.T-price{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.discount{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.cal{
+ font-size: 0.8rem;
+ font-weight: 400;
+ opacity: 0.7;
+}
+#cal{
+ font-size: 0.8rem;
+ font-weight: 300;
+ /* opacity: 0.7; */
+}
+.totalprice{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    /* margin-top: 10px; */
+}
+.Text-sum{
+    font-size: 0.8rem;
+    font-weight: 400;
+
+}
+
+#btncheckout>button{
+    width: 90%;
+    /* margin-top: 20px; */
+    background-color: black;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+    /* height: 5.5vh; */
+}
+.prod-section>hr{
+    border: 1px solid #909090;
+    margin-top: 5px;
+    width: 82.5%;
+}
+.prod-order-container{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  flex-direction: column;
+}
+
+
+/* Frame 1 */
+
+.frame1{
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.img{
+  width:100%;
+   /* height:100%; */
+}
+
+.prodimage1{
+    width: 9.4rem;
+    /* height: 9.1rem; */
+    /* background-color: white; */
+    
+}
+.inf-prod{
+    width: 50%;
+    height: auto;
+}
+
+.Size>p{
+    margin-top: 2rem;
+}
+
+.Prod-S-P-Q{
+    width: 120%;
+    /* background-color: aliceblue; */
+    /* line-height: 2.33; */
+    margin-left: 10px;
+}
+.Prod-S-P-Q>h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.Prod-S-P-Q>p{
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+.Prod-S-P-Q>.price{
+    font-size: 1.2rem;
+    font-weight: 600;
+}

@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITI frontEnd Project</title>
+    <link rel="stylesheet" href="./stylesheets/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="topper">
+                <div class="ad-container">
+                    <button class="mode">
+                        <svg id="svg-one" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke="#fffffff">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M12 1a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0V2a1 1 0 0 1 1-1ZM12 19a1 1 0 0 1 1 1v2a1 1 0 1 1-2 0v-2a1 1 0 0 1 1-1ZM1 12a1 1 0 0 1 1-1h2a1 1 0 1 1 0 2H2a1 1 0 0 1-1-1ZM19 12a1 1 0 0 1 1-1h2a1 1 0 1 1 0 2h-2a1 1 0 0 1-1-1ZM7.047 16.953a1 1 0 0 1 0 1.414l-1.41 1.41a1 1 0 1 1-1.414-1.414l1.41-1.41a1 1 0 0 1 1.414 0ZM19.777 4.223a1 1 0 0 1 0 1.414l-1.41 1.41a1 1 0 1 1-1.414-1.414l1.41-1.41a1 1 0 0 1 1.414 0ZM16.953 16.953a1 1 0 0 1 1.414 0l1.41 1.41a1 1 0 1 1-1.414 1.414l-1.41-1.41a1 1 0 0 1 0-1.414ZM4.223 4.223a1 1 0 0 1 1.414 0l1.41 1.41a1 1 0 0 1-1.414 1.414l-1.41-1.41a1 1 0 0 1 0-1.414ZM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10Z">
+                                </path>
+                            </g>
+                        </svg>
+
+                        <svg id="svg-two" style="display: none;" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M9.272 2.406a1 1 0 0 0-1.23-1.355C6.59 1.535 5.432 2.487 4.37 3.55a11.399 11.399 0 0 0 0 16.182c4.518 4.519 11.51 4.261 15.976-.205 1.062-1.062 2.014-2.22 2.498-3.673A1 1 0 0 0 21.55 14.6c-3.59 1.322-7.675.734-10.434-2.025-2.765-2.766-3.328-6.83-1.844-10.168Z">
+                                </path>
+                            </g>
+                        </svg>
+
+                    </button>
+                    <div class="text-container">
+
+                        <p class="animated-text">
+                            FREE SHIPPING ON ALL OUR ORIGINAL PRODUCTS! FROM JUL. 28 TO 30.
+                        </p>
+                    </div>
+                </div>
+                <ul>
+                    <li>
+                        <a href="">Help & FAQs</a>
+                    </li>
+                    <li class="login"><a href="#login">Login</a></li>
+                    <li class="logout"><a href="">Log out</a></li>
+
+                    <li>
+                        <select id="currrency" name="currency">
+                            <option value="USD">USD</option>
+                            <option value="EGP">EGP</option>
+                            <option value="SAR">SAR</option>
+                        </select>
+                    </li>
+                    <!-- <li>
+                        <select id="language" name="language">
+                            <option value="EN">EN</option>
+                            <option value="AR">AR</option>
+                        </select>
+                    </li> -->
+                </ul>
+
+            </div>
+        </div>
+
+        <nav>
+            <div class="navbar-container">
+                <div class="navbar">
+                    <div class="nav-left">
+                        <div class="logo">
+                            <a href="#">ITI <span>Store</span></a>
+                        </div>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#shop">Shop</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#about">About</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="nav-right">
+                        <li class="search" id="search-icon">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M10 5C7.23858 5 5 7.23858 5 10C5 12.7614 7.23858 15 10 15C11.381 15 12.6296 14.4415 13.5355 13.5355C14.4415 12.6296 15 11.381 15 10C15 7.23858 12.7614 5 10 5ZM3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10C17 11.5719 16.481 13.0239 15.6063 14.1921L20.7071 19.2929C21.0976 19.6834 21.0976 20.3166 20.7071 20.7071C20.3166 21.0976 19.6834 21.0976 19.2929 20.7071L14.1921 15.6063C13.0239 16.481 11.5719 17 10 17C6.13401 17 3 13.866 3 10Z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </li>
+                        <div class="search-input-container" id="search-container" style="display: none;">
+                            <input type="text" id="navbar-search" placeholder="Search products..." />
+                            <button class="close-search" id="close-search">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <li class="cart">
+                            <a href="#cart">
+                                <svg viewBox="0 0 24 24" id="cart-alt-1" data-name="Flat Color"
+                                xmlns="http://www.w3.org/2000/svg" class="icon flat-color">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path id="secondary"
+                                        d="M18.5,20.5A1.5,1.5,0,1,1,17,19,1.5,1.5,0,0,1,18.5,20.5ZM11,19a1.5,1.5,0,1,0,1.5,1.5A1.5,1.5,0,0,0,11,19Z">
+                                    </path>
+                                    <path id="primary"
+                                        d="M18.2,14a1,1,0,0,0,.93-.63l2.8-7a1,1,0,0,0-.1-.93A1,1,0,0,0,21,5H7.88l-.7-1.74A2,2,0,0,0,5.32,2H3A1,1,0,0,0,3,4H5.32L8.9,13,7.83,15.11A2,2,0,0,0,9.62,18H19a1,1,0,0,0,0-2H9.62l1-2Z">
+                                    </path>
+                                </g>
+                            </svg>
+                            </a>
+                        </li>
+                        <li class="fav"> <a href="#wishlist">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                stroke="">
+                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_iconCarrier">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M11.993 5.09691C11.0387 4.25883 9.78328 3.75 8.40796 3.75C5.42122 3.75 3 6.1497 3 9.10988C3 10.473 3.50639 11.7242 4.35199 12.67L12 20.25L19.4216 12.8944L19.641 12.6631C20.4866 11.7172 21 10.473 21 9.10988C21 6.1497 18.5788 3.75 15.592 3.75C14.2167 3.75 12.9613 4.25883 12.007 5.09692L12 5.08998L11.993 5.09691ZM12 7.09938L12.0549 7.14755L12.9079 6.30208L12.9968 6.22399C13.6868 5.61806 14.5932 5.25 15.592 5.25C17.763 5.25 19.5 6.99073 19.5 9.10988C19.5 10.0813 19.1385 10.9674 18.5363 11.6481L18.3492 11.8453L12 18.1381L5.44274 11.6391C4.85393 10.9658 4.5 10.0809 4.5 9.10988C4.5 6.99073 6.23699 5.25 8.40796 5.25C9.40675 5.25 10.3132 5.61806 11.0032 6.22398L11.0921 6.30203L11.9452 7.14752L12 7.09938Z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </a></li>
+                    </div>
+                </div>
+            </div>
+            <section class="carousel hide">
+                <div id="slider">
+                    <div id="h1-selector">
+                        <svg id="sel1" class="active-sel" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:serif="http://www.serif.com/"
+                            fill="#000000" width="800px" height="800px" viewBox="0 0 64 64" version="1.1"
+                            xml:space="preserve"
+                            style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                            <g transform="matrix(1,0,0,1,-512,-320)">
+                                <rect id="Icons" x="0" y="0" width="1280" height="800" style="fill:none;" />
+                                <g id="Icons1" serif:id="Icons">
+                                    <g id="Strike">
+                                    </g>
+                                    <g id="H1">
+                                    </g>
+                                    <g id="H2">
+                                    </g>
+                                    <g id="H3">
+                                    </g>
+                                    <g id="list-ul">
+                                    </g>
+                                    <g id="hamburger-1">
+                                    </g>
+                                    <g id="hamburger-2">
+                                    </g>
+                                    <g id="list-ol">
+                                    </g>
+                                    <g id="list-task">
+                                    </g>
+                                    <g id="trash">
+                                    </g>
+                                    <g id="vertical-menu">
+                                    </g>
+                                    <g id="horizontal-menu">
+                                    </g>
+                                    <g id="sidebar-2">
+                                    </g>
+                                    <g id="Pen">
+                                    </g>
+                                    <g id="Pen1" serif:id="Pen">
+                                    </g>
+                                    <g id="clock">
+                                    </g>
+                                    <g id="external-link">
+                                    </g>
+                                    <g id="hr">
+                                    </g>
+                                    <g id="info">
+                                    </g>
+                                    <g id="warning">
+                                    </g>
+                                    <g id="plus-circle">
+                                    </g>
+                                    <g id="minus-circle">
+                                    </g>
+                                    <g id="vue">
+                                    </g>
+                                    <g id="cog">
+                                    </g>
+                                    <g id="logo">
+                                    </g>
+                                    <g id="radio-check">
+                                    </g>
+                                    <g id="eye-slash">
+                                    </g>
+                                    <g id="eye">
+                                    </g>
+                                    <g id="toggle-off">
+                                    </g>
+                                    <g id="shredder">
+                                    </g>
+                                    <g id="spinner--loading--dots-" serif:id="spinner [loading, dots]">
+                                    </g>
+                                    <g id="react">
+                                    </g>
+                                    <g id="check-selected">
+                                        <g transform="matrix(0.10009,1.645e-33,1.645e-33,0.10009,511.942,319.993)">
+                                            <path
+                                                d="M321.714,559.995C383.452,559.4 444.576,533.825 488.528,490.39C540.728,438.804 567.614,362.474 558.237,289.61C542.165,164.734 439.517,80 320.172,80C229.504,80 141.375,136.719 102.723,218.967C73.131,281.935 73.079,357.952 102.723,421.033C141.101,502.698 227.781,559.119 318.63,559.995C319.658,559.998 320.686,559.998 321.714,559.995ZM318.887,519.994C226.669,519.105 140.633,447.794 123.527,356.366C111.467,291.905 134.234,222.15 181.658,176.375C237.036,122.923 324.063,105.014 396.424,135.314C461.174,162.428 509.632,225.368 518.562,294.718C526.216,354.158 504.885,416.454 462.966,459.367C426.2,497.004 374.636,519.481 321.457,519.994C320.6,519.997 319.744,519.997 318.887,519.994Z"
+                                                style="fill-rule:nonzero;" />
+                                        </g>
+                                        <g transform="matrix(1.20036,0,0,1.20036,-108.995,-70.5272)">
+                                            <circle cx="543.992" cy="352" r="14.13" />
+                                        </g>
+                                    </g>
+                                    <g id="turn-off">
+                                    </g>
+                                    <g id="code-block">
+                                    </g>
+                                    <g id="user">
+                                    </g>
+                                    <g id="coffee-bean">
+                                    </g>
+                                    <g transform="matrix(0.638317,0.368532,-0.368532,0.638317,785.021,-208.975)">
+                                        <g id="coffee-beans">
+                                            <g id="coffee-bean1" serif:id="coffee-bean">
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g id="coffee-bean-filled">
+                                    </g>
+                                    <g transform="matrix(0.638317,0.368532,-0.368532,0.638317,913.062,-208.975)">
+                                        <g id="coffee-beans-filled">
+                                            <g id="coffee-bean2" serif:id="coffee-bean">
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g id="clipboard">
+                                    </g>
+                                    <g transform="matrix(1,0,0,1,128.011,1.35415)">
+                                        <g id="clipboard-paste">
+                                        </g>
+                                    </g>
+                                    <g id="clipboard-copy">
+                                    </g>
+                                    <g id="Layer1">
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <div id="h2-selector">
+                        <svg id="sel2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xmlns:serif="http://www.serif.com/" fill="#000000" width="800px" height="800px"
+                            viewBox="0 0 64 64" version="1.1" xml:space="preserve"
+                            style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                            <g transform="matrix(1,0,0,1,-512,-320)">
+                                <rect id="Icons" x="0" y="0" width="1280" height="800" style="fill:none;" />
+                                <g id="Icons1" serif:id="Icons">
+                                    <g id="Strike">
+                                    </g>
+                                    <g id="H1">
+                                    </g>
+                                    <g id="H2">
+                                    </g>
+                                    <g id="H3">
+                                    </g>
+                                    <g id="list-ul">
+                                    </g>
+                                    <g id="hamburger-1">
+                                    </g>
+                                    <g id="hamburger-2">
+                                    </g>
+                                    <g id="list-ol">
+                                    </g>
+                                    <g id="list-task">
+                                    </g>
+                                    <g id="trash">
+                                    </g>
+                                    <g id="vertical-menu">
+                                    </g>
+                                    <g id="horizontal-menu">
+                                    </g>
+                                    <g id="sidebar-2">
+                                    </g>
+                                    <g id="Pen">
+                                    </g>
+                                    <g id="Pen1" serif:id="Pen">
+                                    </g>
+                                    <g id="clock">
+                                    </g>
+                                    <g id="external-link">
+                                    </g>
+                                    <g id="hr">
+                                    </g>
+                                    <g id="info">
+                                    </g>
+                                    <g id="warning">
+                                    </g>
+                                    <g id="plus-circle">
+                                    </g>
+                                    <g id="minus-circle">
+                                    </g>
+                                    <g id="vue">
+                                    </g>
+                                    <g id="cog">
+                                    </g>
+                                    <g id="logo">
+                                    </g>
+                                    <g id="radio-check">
+                                    </g>
+                                    <g id="eye-slash">
+                                    </g>
+                                    <g id="eye">
+                                    </g>
+                                    <g id="toggle-off">
+                                    </g>
+                                    <g id="shredder">
+                                    </g>
+                                    <g id="spinner--loading--dots-" serif:id="spinner [loading, dots]">
+                                    </g>
+                                    <g id="react">
+                                    </g>
+                                    <g id="check-selected">
+                                        <g transform="matrix(0.10009,1.645e-33,1.645e-33,0.10009,511.942,319.993)">
+                                            <path
+                                                d="M321.714,559.995C383.452,559.4 444.576,533.825 488.528,490.39C540.728,438.804 567.614,362.474 558.237,289.61C542.165,164.734 439.517,80 320.172,80C229.504,80 141.375,136.719 102.723,218.967C73.131,281.935 73.079,357.952 102.723,421.033C141.101,502.698 227.781,559.119 318.63,559.995C319.658,559.998 320.686,559.998 321.714,559.995ZM318.887,519.994C226.669,519.105 140.633,447.794 123.527,356.366C111.467,291.905 134.234,222.15 181.658,176.375C237.036,122.923 324.063,105.014 396.424,135.314C461.174,162.428 509.632,225.368 518.562,294.718C526.216,354.158 504.885,416.454 462.966,459.367C426.2,497.004 374.636,519.481 321.457,519.994C320.6,519.997 319.744,519.997 318.887,519.994Z"
+                                                style="fill-rule:nonzero;" />
+                                        </g>
+                                        <g transform="matrix(1.20036,0,0,1.20036,-108.995,-70.5272)">
+                                            <circle cx="543.992" cy="352" r="14.13" />
+                                        </g>
+                                    </g>
+                                    <g id="turn-off">
+                                    </g>
+                                    <g id="code-block">
+                                    </g>
+                                    <g id="user">
+                                    </g>
+                                    <g id="coffee-bean">
+                                    </g>
+                                    <g transform="matrix(0.638317,0.368532,-0.368532,0.638317,785.021,-208.975)">
+                                        <g id="coffee-beans">
+                                            <g id="coffee-bean1" serif:id="coffee-bean">
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g id="coffee-bean-filled">
+                                    </g>
+                                    <g transform="matrix(0.638317,0.368532,-0.368532,0.638317,913.062,-208.975)">
+                                        <g id="coffee-beans-filled">
+                                            <g id="coffee-bean2" serif:id="coffee-bean">
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g id="clipboard">
+                                    </g>
+                                    <g transform="matrix(1,0,0,1,128.011,1.35415)">
+                                        <g id="clipboard-paste">
+                                        </g>
+                                    </g>
+                                    <g id="clipboard-copy">
+                                    </g>
+                                    <g id="Layer1">
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                    <div id="h3-selector">
+                        <svg id="sel3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xmlns:serif="http://www.serif.com/" fill="#000000" width="800px" height="800px"
+                            viewBox="0 0 64 64" version="1.1" xml:space="preserve"
+                            style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                            <g transform="matrix(1,0,0,1,-512,-320)">
+                                <rect id="Icons" x="0" y="0" width="1280" height="800" style="fill:none;" />
+                                <g id="Icons1" serif:id="Icons">
+                                    <g id="Strike">
+                                    </g>
+                                    <g id="H1">
+                                    </g>
+                                    <g id="H2">
+                                    </g>
+                                    <g id="H3">
+                                    </g>
+                                    <g id="list-ul">
+                                    </g>
+                                    <g id="hamburger-1">
+                                    </g>
+                                    <g id="hamburger-2">
+                                    </g>
+                                    <g id="list-ol">
+                                    </g>
+                                    <g id="list-task">
+                                    </g>
+                                    <g id="trash">
+                                    </g>
+                                    <g id="vertical-menu">
+                                    </g>
+                                    <g id="horizontal-menu">
+                                    </g>
+                                    <g id="sidebar-2">
+                                    </g>
+                                    <g id="Pen">
+                                    </g>
+                                    <g id="Pen1" serif:id="Pen">
+                                    </g>
+                                    <g id="clock">
+                                    </g>
+                                    <g id="external-link">
+                                    </g>
+                                    <g id="hr">
+                                    </g>
+                                    <g id="info">
+                                    </g>
+                                    <g id="warning">
+                                    </g>
+                                    <g id="plus-circle">
+                                    </g>
+                                    <g id="minus-circle">
+                                    </g>
+                                    <g id="vue">
+                                    </g>
+                                    <g id="cog">
+                                    </g>
+                                    <g id="logo">
+                                    </g>
+                                    <g id="radio-check">
+                                    </g>
+                                    <g id="eye-slash">
+                                    </g>
+                                    <g id="eye">
+                                    </g>
+                                    <g id="toggle-off">
+                                    </g>
+                                    <g id="shredder">
+                                    </g>
+                                    <g id="spinner--loading--dots-" serif:id="spinner [loading, dots]">
+                                    </g>
+                                    <g id="react">
+                                    </g>
+                                    <g id="check-selected">
+                                        <g transform="matrix(0.10009,1.645e-33,1.645e-33,0.10009,511.942,319.993)">
+                                            <path
+                                                d="M321.714,559.995C383.452,559.4 444.576,533.825 488.528,490.39C540.728,438.804 567.614,362.474 558.237,289.61C542.165,164.734 439.517,80 320.172,80C229.504,80 141.375,136.719 102.723,218.967C73.131,281.935 73.079,357.952 102.723,421.033C141.101,502.698 227.781,559.119 318.63,559.995C319.658,559.998 320.686,559.998 321.714,559.995ZM318.887,519.994C226.669,519.105 140.633,447.794 123.527,356.366C111.467,291.905 134.234,222.15 181.658,176.375C237.036,122.923 324.063,105.014 396.424,135.314C461.174,162.428 509.632,225.368 518.562,294.718C526.216,354.158 504.885,416.454 462.966,459.367C426.2,497.004 374.636,519.481 321.457,519.994C320.6,519.997 319.744,519.997 318.887,519.994Z"
+                                                style="fill-rule:nonzero;" />
+                                        </g>
+                                        <g transform="matrix(1.20036,0,0,1.20036,-108.995,-70.5272)">
+                                            <circle cx="543.992" cy="352" r="14.13" />
+                                        </g>
+                                    </g>
+                                    <g id="turn-off">
+                                    </g>
+                                    <g id="code-block">
+                                    </g>
+                                    <g id="user">
+                                    </g>
+                                    <g id="coffee-bean">
+                                    </g>
+                                    <g transform="matrix(0.638317,0.368532,-0.368532,0.638317,785.021,-208.975)">
+                                        <g id="coffee-beans">
+                                            <g id="coffee-bean1" serif:id="coffee-bean">
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g id="coffee-bean-filled">
+                                    </g>
+                                    <g transform="matrix(0.638317,0.368532,-0.368532,0.638317,913.062,-208.975)">
+                                        <g id="coffee-beans-filled">
+                                            <g id="coffee-bean2" serif:id="coffee-bean">
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g id="clipboard">
+                                    </g>
+                                    <g transform="matrix(1,0,0,1,128.011,1.35415)">
+                                        <g id="clipboard-paste">
+                                        </g>
+                                    </g>
+                                    <g id="clipboard-copy">
+                                    </g>
+                                    <g id="Layer1">
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="hero hero1 active">
+                    <div class="hero-header hero-header-animation">
+                        <h1>Summer Collection is here</h1>
+                    </div>
+                    <div class="hero-icon hero-icon-animation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 512 512">
+                            <path
+                                d="M259.431,268.8l140-140-27.785-27.785A208.333,208.333,0,0,0,77.019,395.646L104.8,423.431l132-132L401.372,456h45.256ZM224.333,72a175.182,175.182,0,0,1,124.686,51.646l5.157,5.158-57.058,57.058a477.658,477.658,0,0,0-62.879-53.924C209.023,114.1,184.8,101.609,162.245,94.807a152.909,152.909,0,0,0-17.092-4.129A175.58,175.58,0,0,1,224.333,72ZM104.8,378.176l-5.158-5.157A176.637,176.637,0,0,1,66.678,169.153a153.129,153.129,0,0,0,4.129,17.092c6.8,22.556,19.3,46.778,37.131,71.994a477.658,477.658,0,0,0,53.924,62.879Zm79.7-79.7c-11.857-11.634-32.231-32.977-50.438-58.718-22.872-32.336-46.59-77.9-33.753-115.45,37.421-12.793,82.8,10.736,115.005,33.437,25.864,18.233,47.431,38.815,59.158,50.759Z"
+                                class="ci-primary" />
+                        </svg>
+                    </div>
+
+                    <div class="hero-subtext hero-subtext-animation">
+                        <p>Discover the latest summer styles for men and women. Light fabrics, bold colors, and seasonal
+                            trends
+                            made for the heat.
+                        </p>
+                    </div>
+                    <div class="hero-button hero-button-animation">
+                        <button>SHOP NOW</button>
+                    </div>
+                </div>
+                <div class="hero hero2">
+                    <div class="hero-header">
+                        <h1>Up to 50% Off — Limited Time</h1>
+                    </div>
+                    <div class="hero-icon">
+                        <svg fill="#5a6de3" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 575.538 575.537"
+                            xml:space="preserve" transform="rotate(270)">
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <g>
+                                    <g>
+                                        <polygon points="319.21,339.186 298.201,350.4 308.047,360.248 "></polygon>
+                                        <path
+                                            d="M213.72,169.154c-1.095-18.807-3.88-37.583-8.412-56.233C189.46,47.684,163.729,11.39,126.645,1.961 C121.525,0.661,116.52,0,111.767,0C72.44,0,52.428,45.836,50.472,88.422c-2.16,47.093,11.956,95.5,39.752,136.302 c3.18,4.667,7.953,7.234,13.443,7.234c6.383,0,12.552-3.559,15.352-8.859c2.463-4.661,2.035-9.85-1.212-14.615 c-20.649-30.312-32.442-63.819-35.049-99.594c-1.261-17.311,0.196-54.183,14.737-69.82c4.32-4.648,9.33-6.907,15.315-6.907 c3.819,0,8.06,0.955,12.607,2.834c16.793,6.943,25.884,24.504,34.465,43.431c7.038,15.526,12.638,33.295,17.121,54.33 c2.772,13.008,4.498,26.451,5.177,40.101l-53.308,6.27l-18.498,157.308l239.099,239.1L525.281,399.73l-239.1-239.099 L213.72,169.154z M181.03,214.727c-0.952,9.186-2.362,18.369-4.232,27.491c-1.007,4.909,0.095,9.642,3.106,13.33 c3.21,3.935,8.43,6.38,13.62,6.38c7.329,0,12.818-4.565,14.327-11.913c2.203-10.75,3.819-21.53,4.89-32.322 c1.603,1.11,3.13,2.356,4.538,3.764c6.154,6.153,9.544,14.336,9.544,23.039s-3.391,16.885-9.544,23.036 c-6.153,6.151-14.336,9.544-23.039,9.544s-16.885-3.391-23.036-9.544c-12.702-12.702-12.702-33.372,0-46.077 C174.081,218.579,177.417,216.33,181.03,214.727z M438.655,435.389l-9.571,9.568l-23.238-23.236l-7.123,7.123l21.555,21.555 l-9.144,9.143l-21.555-21.555l-8.838,8.838l23.911,23.908l-10.15,10.15l-37.791-37.791l44.823-44.824L438.655,435.389z M373.651,370.389l-33.785,33.785l21.616,21.615l-11.038,11.039l-35.468-35.469l44.822-44.824L373.651,370.389z M338.556,335.291 l-27.98,61.664l-14.505-14.5l5.156-9.643l-15.726-15.727l-9.584,5.215l-14.14-14.141l61.671-27.977L338.556,335.291z M290.058,311.988l-13.819-12.291c1.671-2.363,2.412-4.561,2.216-6.59c-0.192-2.027-1.27-4.02-3.226-5.975 c-1.609-1.61-3.164-2.482-4.663-2.613c-1.5-0.132-2.736,0.291-3.715,1.27c-0.713,0.713-1.019,1.692-0.918,2.934 c0.061,1.243,1.059,3.342,2.996,6.299c4.75,7.359,7.766,13.014,9.051,16.967s1.533,7.52,0.75,10.686 c-0.783,3.17-2.399,5.979-4.847,8.424c-2.874,2.873-6.319,4.729-10.334,5.564c-4.015,0.834-8.075,0.451-12.185-1.148 c-4.106-1.6-8.333-4.572-12.674-8.914c-7.623-7.621-11.436-14.369-11.436-20.242c0-5.871,2.069-11.26,6.206-16.174l14.002,12.354 c-1.854,2.426-2.904,4.639-3.149,6.633c-0.389,3.24,0.744,6.186,3.394,8.838c1.977,1.977,3.966,3.035,5.961,3.18 c1.998,0.143,3.608-0.398,4.832-1.619c1.163-1.162,1.692-2.711,1.591-4.648c-0.101-1.938-1.6-5.166-4.495-9.691 c-4.709-7.438-7.225-13.583-7.552-18.436c-0.346-4.872,1.233-9.061,4.74-12.567c2.304-2.301,5.147-3.813,8.531-4.526 s7.001-0.318,10.854,1.193c3.853,1.509,8.112,4.596,12.781,9.263c5.729,5.729,9.03,11.16,9.905,16.298 C295.731,301.59,294.134,306.771,290.058,311.988z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="hero-subtext">
+                        <p>Don’t miss out! Grab the best deals on selected clothing and footwear before they’re gone.
+
+                        </p>
+                    </div>
+                    <div class="hero-button">
+                        <button>SHOP NOW</button>
+                    </div>
+                </div>
+                <div class="hero hero3">
+                    <div class="hero-header">
+                        <h1>Step Into Comfort & Style</h1>
+                    </div>
+                    <div class="hero-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            fill="#5a6de3" version="1.1" id="Layer_1" viewBox="0 0 512 512" xml:space="preserve"
+                            width="800px" height="800px" stroke="#5a6de3">
+
+                            <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+
+                            <g id="SVGRepo_iconCarrier">
+                                <g>
+                                    <g>
+                                        <path
+                                            d="M477.193,350.526c-5.85,1.033-11.699,2.076-17.601,2.76l-67.278,7.814c-46.042,5.347-92.659,2.832-137.858-7.442 l-24.603-5.592c-30.115-6.844-60.9-10.299-91.783-10.299H47.116C21.094,337.77,0,358.865,0,384.887s21.094,47.116,47.116,47.116 h308.871c46.58,0,92.796-8.212,136.524-24.259C504.219,403.448,512,392.303,512,379.833 C512,361.019,494.939,347.392,477.193,350.526z" />
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path
+                                            d="M460.172,274.217c-23.245-5.166-46.018-12.031-67.76-20.34l-36.369,58.242l-28.323-17.686l33.577-53.772 c-6.805-3.198-13.472-6.534-19.969-10.014l-33.646,53.508l-28.267-17.774l33.173-52.757c-5.953-3.891-11.711-7.903-17.249-12.035 l-33.525,54.452l-28.435-17.506l36.104-58.643c-1.708-1.626-3.423-3.288-5.142-4.999L148.86,253.886l-17.543-25.647l-8.991,6.506 c-6.813,4.93-10.872,12.577-11.137,20.982c-0.265,8.406,3.305,16.294,9.794,21.643l33.126,27.306 c27.967,1.006,55.865,4.63,83.143,10.83l24.603,5.592c27.277,6.2,55.29,9.343,83.263,9.343c14.428,0,29.01-0.844,43.343-2.509 l67.278-7.814c4.783-0.555,9.863-1.454,15.241-2.403l0.402-0.071c3.602-0.637,7.278-0.959,10.927-0.959 c5.969,0,11.74,0.853,17.218,2.411C501.042,304.613,496.847,282.367,460.172,274.217z" />
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <rect x="136.649" y="139.902"
+                                            transform="matrix(0.8254 -0.5646 0.5646 0.8254 -58.8316 133.1812)"
+                                            width="98.463" height="43.588" />
+                                    </g>
+                                </g>
+                                <g>
+                                    <g>
+                                        <path
+                                            d="M193.182,89.843c-12.381-11.734-31.736-13.333-45.979-2.888L43.143,163.266c-19.712,14.455-31.342,37.449-31.304,61.893 l0.132,87.311c10.626-5.178,22.551-8.091,35.145-8.091h54.134l-1.506-1.241c-14.53-11.977-22.522-29.641-21.929-48.462 c0.593-18.82,9.683-35.943,24.938-46.982l9.707-7.023l-25.914-37.886L193.182,89.843z" />
+                                    </g>
+                                </g>
+                            </g>
+
+                        </svg>
+                    </div>
+
+                    <div class="hero-subtext">
+                        <p>From casual kicks to formal shoes — walk your way in confidence with our top picks.
+                        </p>
+                    </div>
+                    <div class="hero-button">
+                        <button>SHOP NOW</button>
+                    </div>
+                </div>
+            </section>
+        </nav>
+    </header>
+
+    <main id="content">
+
+    </main>
+
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <h1>ITI <span>Store</span></h1>
+                </div>
+                <div class="subscribtion">
+                    <h2>Sign up for our newsletter</h2>
+                    <p>Be the first to know about our special offers, news, and updates.</p>
+                    <div class="sub-field">
+                        <input id="mail" type="email" name="email" placeholder="Enter your email adress">
+                        <button type="submit" class="sub-button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-mid">
+                <div class="f-mid-head">
+                    <h2>
+                        Categories
+                    </h2>
+
+                </div>
+                <div class="categories">
+                    <a href="">Women
+                    </a>
+                    <a href="">Men
+                    </a>
+                    <a href="">Children
+                    </a>
+                    <a href="">Shoes
+                    </a>
+                </div>
+            </div>
+            <div class="footer-righ">
+                <div class="f-ri-head">
+                    <h2>HELP</h2>
+
+                </div>
+                <div class="help">
+                    <a href="">Track Order
+                    </a>
+                    <a href="">Returns
+                    </a>
+                    <a href="">Shipping
+                    </a>
+                    <a href="">FAQs
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <script>
+        // Search icon toggle functionality
+        const searchIcon = document.getElementById('search-icon');
+        const searchContainer = document.getElementById('search-container');
+        const closeSearch = document.getElementById('close-search');
+        const navbarSearch = document.getElementById('navbar-search');
+
+        // Open search input when clicking search icon
+        searchIcon.addEventListener('click', function() {
+            searchIcon.style.display = 'none';
+            searchContainer.style.display = 'flex';
+            navbarSearch.focus();
+        });
+
+        // Close search input when clicking close button
+        closeSearch.addEventListener('click', function() {
+            searchContainer.style.display = 'none';
+            searchIcon.style.display = 'block';
+            navbarSearch.value = '';
+        });
+
+        // Close search on Escape key
+        navbarSearch.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                searchContainer.style.display = 'none';
+                searchIcon.style.display = 'block';
+                navbarSearch.value = '';
+            }
+        });
+
+        // Redirect to shop page when searching
+        navbarSearch.addEventListener('keypress', function(e) {
+            if (e.key === 'Enter' && this.value.trim()) {
+                window.location.href = '#shop';
+                // Store search term for shop page to use
+                sessionStorage.setItem('searchTerm', this.value.trim());
+            }
+        });
+    </script>
+
+
+    <script src="app.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Adress</title>
+    <link rel="stylesheet" href="../stylesheets/checkoutaddress.css">
+</head>
+<body>
+    <main>
+        <div class="containprogress">
+
+        <h3>Checkout</h3>
+        
+        <div id="checkout_progress" >
+        <div class="checkout_step" id="highlighted">Address</div>   
+        <div class="horizontal_line"></div>
+        <div class="checkout_step">Shipping</div>
+        <div class="horizontal_line"></div>
+        <div class="checkout_step">Payment</div>
+        </div>
+
+    <p>Shipping Information</p>
+
+    <form id="shipping_info" >
+        
+        <div class="user_name"> 
+            <input type="text" name="fname" id="fname" placeholder="First Name" required>
+            <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+        </div>
+
+        <div class="row">
+            <input type="text" name="address" id="address" placeholder="Address" required>
+        </div>
+
+        <div class="row">
+            <input type="text" name="apartment" id="apartment" placeholder="Apartment, suite, etc (optional)">
+        </div>
+
+        <div class="row">
+            <input type="text" name="city" id="cityaddress" placeholder="City" required>
+        </div>
+
+        <div class="dropdown_address">
+            <select name="country" id="country" value="Country" required>
+                <option value="" disabled selected hidden>Country</option>
+                <option value="Egypt">Egypt</option>
+                <option value="USA">USA</option>
+                <option value="France">France</option>
+                <option value="Germany">Germany</option>
+            </select>
+            <input type="text" name="city" id="city" placeholder="City" required>
+            <input type="text" name="zipcode" id="zipcode" placeholder="Zipcode" required>
+        </div>
+
+        <div class="row">
+            <input type="text" name="optional" id="optional" placeholder="optional">
+        </div>
+
+        <div class="save_checkbox">
+            <input type="checkbox" name="save" id="save">
+            <label for="save">Save contact information</label>
+        </div>
+
+        <div class="row">
+            <input type="submit" value="Continue to shipping" id="continue" >
+        </div>
+    </form>
+
+
+
+        </div>
+
+    <div class="container_2">
+
+    <!-- <p>Your cart</p> -->
+        <div class="cart-container">
+            <div id="cartheader"><h2>Your cart</h2></div>
+            <!-- <div id="contShopping"><a href="">Not readty to checkout? Continue Shopping</a></div> -->
+            
+            
+            <div class="prod-order-container">
+            <div class="Prod-card">
+            </div> 
+
+               <div class="OrderSUM">
+                <h3>Order Summary</h3>
+
+                <!-- <div id="Coupontext"><input type="text" name="coupon" id="coupon" placeholder="Enter coupon code here"></div> -->
+                <div class="orderdetails">
+                    <div class="ship-total">
+                        <p class="Text-sum" >Subtotal</p>
+                        <!-- <p class="T-price" id="Subtotal">$0</p> -->
+                    
+                    </div>
+                    <div class="Shipping">    
+                        <p class="Text-sum">Shipping</p>
+                        <p class="cal"></p> 
+                    </div>
+                    <hr/>
+                    <div class="totalprice">
+                        <p class="Text-sum">Total</p>
+                        <!-- <p class="T-price" id="total">$0</p> -->
+                    <!-- </div>
+                    <div id="btncheckout"><button>Continue to checkout</button></div>
+                    </div> -->
+                </div>
+               </div>
+
+               </div>
+
+    
+            </div>
+    </div>
+
+
+    </main>
+    <script src="../scripts/checkoutaddress.js"></script>
+    <script src="../scripts/embedd_cart.js"></script>
+</body>
+

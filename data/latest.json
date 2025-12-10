@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Dress 1",
+        "image": "../assets/images/latest/latest1.jpg",
+        "text": "A timeless silhouette with a modern twist—this dress flows with elegance and flatters every move. Perfect for daytime charm or evening flair"
+    },
+    {
+        "title": "Jacket 1",
+        "image": "../assets/images/latest/latest2.jpg",
+        "text": "A sleek layer of warmth and confidence. Designed for versatility, this jacket pairs effortlessly with any look, day or night"
+    },
+    {
+        "title": "Shoes 1",
+        "image": "../assets/images/latest/latest3.jpg",
+        "text": "Clean lines, bold comfort. These sneakers blend everyday ease with street-smart style—built to keep up and stand out."
+    }
+]
