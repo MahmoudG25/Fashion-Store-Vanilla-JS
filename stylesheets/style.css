@@ -901,3 +901,69 @@ section{
 nav.reduce{
   height: fit-content !important;
 }
+
+
+/* Custom Popup Styles */
+#custom-popup {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: white;
+  padding: 15px 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  transform: translateX(120%);
+  transition: transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  font-family: 'Quicksand', sans-serif;
+  min-width: 300px;
+  border-left: 5px solid #222;
+}
+
+#custom-popup.show {
+  transform: translateX(0);
+}
+
+.popup-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.popup-icon {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.popup-message {
+  font-size: 14px;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Success Type */
+.popup-success {
+  border-left-color: #4CAF50 !important;
+}
+.popup-success .popup-icon {
+  color: #4CAF50;
+}
+
+/* Error Type */
+.popup-error {
+  border-left-color: #ff4444 !important;
+}
+.popup-error .popup-icon {
+  color: #ff4444;
+}
+
+/* Info Type */
+.popup-info {
+  border-left-color: #5a6de3 !important;
+}
+.popup-info .popup-icon {
+  color: #5a6de3;
+}
+

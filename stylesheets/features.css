@@ -1,0 +1,125 @@
+/* Features Page Styles */
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+.feature-hero {
+    background: linear-gradient(135deg, #222 0%, #333 100%);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    border-bottom: 4px solid #5a6de3;
+}
+
+.feature-hero h1 {
+    font-family: 'SpecialGothic';
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.feature-hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    opacity: 0.9;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.feature-card {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #eee;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(90, 109, 227, 0.15);
+    border-color: #5a6de3;
+}
+
+.icon-wrapper {
+    width: 80px;
+    height: 80px;
+    background: #f0f2ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 25px;
+    transition: background 0.3s ease;
+}
+
+.feature-card:hover .icon-wrapper {
+    background: #5a6de3;
+}
+
+.icon-wrapper svg {
+    width: 40px;
+    height: 40px;
+    fill: #5a6de3;
+    transition: fill 0.3s ease;
+}
+
+.feature-card:hover .icon-wrapper svg {
+    fill: white;
+}
+
+.feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+}
+
+.feature-card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.cta-section {
+    text-align: center;
+    padding: 60px 20px;
+    background: white;
+    margin-top: 50px;
+}
+
+.btn-primary {
+    background: #222;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: 2px solid #222;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.btn-primary:hover {
+    background: #5a6de3;
+    border-color: #5a6de3;
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .feature-hero h1 {
+        font-size: 2.5rem;
+    }
+}

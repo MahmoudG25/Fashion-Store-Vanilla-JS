@@ -1,339 +1,232 @@
 
-body{
-    font-family: 'Public sans' , sans-serif;
-    /* background-color: aqua; */
+body {
+    font-family: 'Quicksand', sans-serif; /* Consistent font */
 }
 
-main{
+main {
     max-width: 1200px;
-    margin: auto;
-    /* background-color: #EFF2F6; */
+    margin: 0 auto;
+    padding: 20px;
 }
 
-.cart-container{
-  
+.cart-container {
     width: 100%;
-    margin: auto;
-   
 }
 
-
-#cartheader{
-   font-size: 1.5rem;
-   font-weight: 600; 
-   
-   
-  
+#cartheader {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
-#contShopping>a{
-    color: black;
+
+#contShopping > a {
+    color: #5a6de3;
     text-decoration: none;
     font-size: 1rem;
-    font-weight: 500;
-    line-height: 3;
-    
-    
-
-}
-.prod-order-container{
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  margin: auto;
+    font-weight: 600;
+    transition: color 0.3s;
 }
 
-/* Frame 1 */
+#contShopping > a:hover {
+    color: #333;
+}
 
-.frame1{
-    width: 85%;
-    /* background-color: brown; */
+.prod-order-container {
     display: flex;
-    flex-wrap: wrap;
-}
-.img{
-  width:100%;
-   height:100%;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 30px;
 }
 
-.prodimage1{
-    width: 9.4rem;
-    height: 9.1rem;
-    background-color: gray;
-    
-}
-.inf-prod{
-    width: 50%;
-    height: auto;
-}
-
-.Size>p{
-    margin-top: 2rem;
-}
-
-.Prod-S-P-Q{
-    width: 80%;
-    /* background-color: aliceblue; */
-    line-height: 2.33;
-    margin-left: 5px;
-}
-.Prod-S-P-Q>h3{
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-.Prod-S-P-Q>p{
-    font-size: 0.75rem;
-    font-weight: 400;
-}
-.Prod-S-P-Q>.price{
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-.btnremove{
-    /* background-color: #909090; */
-    width: 23%;
-    position: relative;
-    
-}
-.btnremove>p{
-    width: 90%;
-   font-size: 0.5rem;
-    font-weight: 400;
-    position: absolute;
-    bottom: 30px;
-    left: 40px;
-     font-size: 0.8rem;
-    font-weight: 400;
-}
-.btnremove>button{
-    position: absolute;
-    bottom: 0px;
-    left: 85px;
-    background: none;
-    border: none;
-    color: black;
-    font-size: 0.8rem;
-    font-weight: 400;
-    cursor: pointer;
-}
-.btnremove>button:hover{
-    position: absolute;
-    bottom: 0px;
-    left: 85px;
-    background: none;
-    border: none;
-    color: black;
-    font-size: 0.8rem;
-    font-weight: 600;
-}
-
-
-
-/* HR */
-.prod-section>hr{
-    border: 1px solid #909090;
-    margin-top: 5px;
-    width: 82.5%;
-}
-
-
-/* frame 2 */
-
-/* .frame2{
-
-    margin-top: 5px;
-    width: 85%;
-    background-color: brown;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-#prodimage2{
-    width: 9.4rem;
-    height: 9.1rem;
-    background-color: gray;
-    
-}
-#inf-prod2{
-    width: 50%;
-    height: auto;
-}
-
-#Size>p{
-    margin-top: 2rem;
-}
-
-#Prod-S-P-Q2{
-    background-color: aliceblue;
-    line-height: 2.33;
-    margin-left: 5px;
-}
-#Prod-S-P-Q2>h3{
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-#Prod-S-P-Q2>p{
-    font-size: 0.75rem;
-    font-weight: 400;
-}
-#Prod-S-P-Q2>#price2{
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-#butremove2{
-     width: 23%;
-    position: relative;
-}
-#butremove2>p{
-    width: 90%;
-   font-size: 0.5rem;
-    font-weight: 400;
-    position: absolute;
-    bottom: 30px;
-    left: 40px;
-     font-size: 0.8rem;
-    font-weight: 400;
-}
-#butremove2>button{
-    position: absolute;
-    bottom: 0px;
-    left: 85px;
-    background: none;
-    border: none;
-    color: black;
-    font-size: 0.8rem;
-    font-weight: 400;
-} */
-
-
-/* ORDER SUMMARY */
-
+/* Product Section */
 .Prod-card {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.1rem;
-  justify-content: space-evenly;
+    flex: 1.5; /* Takes more space */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 20px;
 }
 
 .prod-section {
-  flex: 1 0 50%; 
-  min-width: 250px;
-  
-}
-
-.OrderSUM {
-  width: 40%; 
-  margin-top: -1rem;
-  
-}
-
-.orderdetails>hr{
-    
-    border: 1px solid #909090;
-    margin-top: 5px;
-    width: 90%;
-
-}
-
-.OrderSUM>h3{
-    font-size: 1.375rem;
-    line-height: 3;
-}
-
-#coupon{
-    width: 90%;
-    height: 4vh;
-    font-family: 'Public Sans', sans-serif;
-    font-size: 0.8rem;
-    padding-left: 15px;
-    }
-
-.ship-total{
     display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin-top: 20px;
-}
-
-.Shipping{
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin-top: 20px;
-}
-.T-price{
-    font-size: 0.8rem;
-    font-weight: 500;
-}
-.cal{
- font-size: 0.8rem;
- font-weight: 400;
- opacity: 0.7;
-}
-
-.totalprice{
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin-top: 10px;
-}
-.Text-sum{
-    font-size: 0.8rem;
-    font-weight: 400;
-
-}
-
-#btncheckout>button{
-    width: 90%;
-    margin-top: 20px;
-    background-color: black;
-    color: #FFFFFF;
-    font-size: 1rem;
-    font-weight: 500;
-    height: 5.5vh;
-}
-
-.order-information{
-    margin-top: 5rem;
-    width: 55%;
-    height: 20.58%;
-}
-
-.hr-parent{
-    border: 1px solid #000000
-}
-
-.hr-child{
-    border: 1px solid #909090
-}
-
-.T-headsum{
-        font-size: 1rem;
-        font-weight: 400;
-        color:#909090;
-}
-
-.T-para{
-        font-size: 1rem;
-        font-weight: 400;
-        color:#909090;
-        margin-top: 10px;
-}
-
-.return>details,
-.shippingopt>details,
-.shippingopt2>details{
-    line-height: 3;
-}
-
-
-.return>details>p,
-.shippingopt>details>p,
-.shippingopt2>details>p{
-    line-height: 1.5;
+    flex-direction: column;
     width: 100%;
 }
 
+.frame1 {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
 
+.prodimage1 {
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0;
+}
 
+.prodimage1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 4px;
+}
 
+.inf-prod {
+    flex: 1;
+}
 
+.Prod-S-P-Q h3 {
+    margin: 0 0 5px 0;
+    font-size: 1.1rem;
+}
+
+.Prod-S-P-Q p {
+    margin: 2px 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.Prod-S-P-Q .price {
+    font-weight: 700;
+    color: #333;
+    font-size: 1.1rem;
+    margin-top: 5px;
+}
+
+.btnremove {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.removebtn {
+    background: transparent;
+    border: none;
+    color: #ff4d4d;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+    padding: 5px;
+}
+
+.removebtn:hover {
+    color: #cc0000;
+    text-decoration: underline;
+}
+
+.vendorName {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+/* Order Summary */
+.OrderSUM {
+    flex: 0.8; 
+    background: #fafafa;
+    padding: 25px;
+    border-radius: 12px;
+    height: fit-content;
+    position: sticky;
+    top: 20px;
+}
+
+.OrderSUM h3 {
+    margin-top: 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#coupon {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.ship-total, .Shipping, .totalprice, .discount {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+}
+
+.totalprice {
+    border-top: 2px solid #ddd;
+    padding-top: 15px;
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#btncheckout button {
+    width: 100%;
+    background: #222;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: background 0.3s, transform 0.2s;
+    margin-top: 20px;
+}
+
+#btncheckout button:hover {
+    background: #5a6de3;
+    transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .prod-order-container {
+        flex-direction: column;
+    }
+    
+    .frame1 {
+        flex-direction: row; 
+    }
+    
+    .OrderSUM {
+        width: 100%;
+        margin-top: 20px;
+        position: static;
+    }
+
+    .btnremove {
+        position: static;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .frame1 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .prodimage1 {
+        width: 100%;
+        height: auto;
+        max-height: 200px;
+    }
+    
+    .btnremove {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+}

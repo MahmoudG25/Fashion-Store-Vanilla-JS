@@ -11,6 +11,7 @@ document
     if (!matchedUser) {
       mailInput.style.border = "1px solid red";
       document.getElementById("emailAlert").innerHTML = "User doesn't exist";
+      if(typeof showPopup === 'function') showPopup("User doesn't exist", "error");
       return;
 
       // if (emailExists) {
@@ -24,6 +25,7 @@ document
     else if (matchedUser.Password !== password) {
       passwordInput.style.border = "1px solid red";
       document.getElementById("passAlert").innerHTML = "Invalid password";
+      if(typeof showPopup === 'function') showPopup("Invalid password", "error");
       return
     }
 

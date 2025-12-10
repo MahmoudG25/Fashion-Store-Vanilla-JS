@@ -31,8 +31,11 @@ shippingRadios.forEach(radio => {
 
 document.getElementById("continue").addEventListener("click",function(){
   
-    if(gotoflag){open("#checkoutpayment","_self") }
-    else{alert("You have to choose a shipping method")}
+    if(gotoflag){window.location.hash = "#checkoutpayment"; }
+    else{
+        if(typeof showPopup === 'function') showPopup("You have to choose a shipping method", "error");
+        else alert("You have to choose a shipping method");
+    }
 })
 
 

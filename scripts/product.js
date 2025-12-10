@@ -93,18 +93,17 @@ function initProductPage() {
         let userEmail = JSON.parse(localStorage.getItem('LoggedInUser')).email;
 
         if (userEmail.length <= 1) {
-
-          alert("You need to login first")
+          if(typeof showPopup === 'function') showPopup("You need to login first", "error");
+          else alert("You need to login first");
           return;
-          // localStorage.setItem("tempCart", JSON.stringify({}));
-          // cart = JSON.parse(localStorage.getItem('tempCart'))
         }
 
         const qty = parseInt(document.querySelector('.qty-controls span').innerText);
         const size = sessionStorage.getItem('selectedSize') || null;
 
         if (!size) {
-          alert("Please select the size");
+          if(typeof showPopup === 'function') showPopup("Please select the size", "error");
+          else alert("Please select the size");
           return;
         }
 
@@ -125,7 +124,8 @@ function initProductPage() {
         }
 
         localStorage.setItem('cart', JSON.stringify(cart));
-        alert("Product added to cart!");
+        if(typeof showPopup === 'function') showPopup("Product added to cart!", "success");
+        else alert("Product added to cart!");
       });
 
       // Favorite
