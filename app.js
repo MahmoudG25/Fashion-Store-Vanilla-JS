@@ -242,6 +242,38 @@ const pauseSliding = (delay = 15000) => {
 
 autoSliding()
 
+// Swipe Functionality
+const carousel = document.querySelector('.carousel');
+let touchStartX = 0;
+let touchEndX = 0;
+
+if (carousel) {
+    carousel.addEventListener('touchstart', e => {
+        touchStartX = e.changedTouches[0].screenX;
+    });
+
+    carousel.addEventListener('touchend', e => {
+        touchEndX = e.changedTouches[0].screenX;
+        handleSwipe();
+    });
+}
+
+function handleSwipe() {
+    const swipeThreshold = 50; 
+    if (touchEndX < touchStartX - swipeThreshold) {
+        // Swipe Left (Next)
+        changeHeros(keys[(currentIndex + 1) % keys.length], false); 
+        currentIndex = (currentIndex + 1) % keys.length;
+    }
+    if (touchEndX > touchStartX + swipeThreshold) {
+        // Swipe Right (Prev)
+        let newIndex = currentIndex - 1;
+        if (newIndex < 0) newIndex = keys.length - 1;
+        changeHeros(keys[newIndex], false);
+        currentIndex = newIndex;
+    }
+}
+
 // Debounce utility for performance optimization
 function debounce(func, wait) {
   let timeout;

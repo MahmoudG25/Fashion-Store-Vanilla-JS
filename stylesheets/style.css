@@ -54,6 +54,13 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden; /* Prevent side scroll */
+    width: 100%;
+}
+
+html {
+    overflow-x: hidden; /* Double insurance */
+    width: 100%;
 }
 
 a{
@@ -436,12 +443,13 @@ opacity: 1;
 
 .hero-subtext{
   position: absolute;
-  top: 300px;
+  top: 350px;
   left: 110px;
   max-width: 450px;
   font-family: "Quicksand", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: medium;
   user-select: none;
+  margin-top: 1rem;
 
 }
 
@@ -967,3 +975,108 @@ nav.reduce{
   color: #5a6de3;
 }
 
+@media (max-width: 900px) { .topper { flex-direction: column; gap: 10px; width: 100%; padding: 10px; } .topper .ad-container, .topper ul { width: 100%; justify-content: center; display: flex; flex-wrap: wrap; } .navbar { flex-direction: column; gap: 15px; width: 95%; } .nav-left { flex-direction: column; gap: 10px; } .nav-left ul { flex-wrap: wrap; justify-content: center; padding: 0; } .nav-right { width: 100%; justify-content: center; gap: 20px; } .hero-header { left: 50%; transform: translateX(-50%); top: 150px; font-size: 2rem; text-align: center; width: 90%; } .hero-subtext { left: 50%; transform: translateX(-50%); top: 250px; text-align: center; width: 90%; margin-top: 5rem;  } .hero-button { left: 50%; transform: translateX(-50%); top: 350px; margin-top: 5rem;} .hero-icon { display: none; } .cat-elements, .arr-elements { flex-direction: column; align-items: center; gap: 20px; } .cat-elements > div, .arr-elements > div { width: 90%; height: 200px; } } @media (max-width: 768px) { .footer-container { flex-direction: column; gap: 30px; text-align: center; } .footer-left, .footer-mid, .footer-righ { width: 100%; } .subscribtion input { width: 80%; } footer { height: auto; padding: 40px 0; } }
+@media (max-width: 900px) { #slider { bottom: 20px; left: 50%; transform: translateX(-50%); width: 100%; justify-content: center; } #slider svg { width: 25px; height: 25px; margin: 0 8px; } }
+
+@media (max-width: 480px) {
+  /* General Mobile Adjustments for 100% Width */
+  .topper, .navbar, .cat-container, .arr-container, .footer-container {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box; /* Ensure padding doesn't cause overflow */
+  }
+
+  /* Topper Specifics */
+  .topper .text-container {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* Navbar Adjustments */
+  .navbar .logo { font-size: 1.5rem; }
+  .navbar li { padding-left: 5px; padding-right: 5px; font-size: 0.85rem; } /* Slightly smaller for fit */
+  .nav-right svg { width: 24px; height: 24px; }
+  .search-input-container {
+      max-width: 100%; /* Ensure container doesn't overflow */
+  }
+  .search-input-container input { width: 150px; } /* Smaller search input */
+  .search-input-container input:focus { width: 70vw; } /* Expand on focus, but keep within viewport safely */
+
+  /* Slider/Hero Adjustments */
+  .hero-header {
+    font-size: 1.5rem;
+    top: 80px; /* Slight adjustment */
+    width: 100%;
+    left: 0;
+    transform: none;
+    text-align: center;
+    padding: 0 10px;
+  }
+  
+  .hero-subtext {
+    font-size: 0.9rem;
+    top: 150px; /* More space from header */
+    width: 100%;
+    left: 0;
+    transform: none;
+    text-align: center;
+    padding: 0 15px;
+    line-height: 1.5; /* Better readability */
+  }
+  
+  .hero-button {
+    top: 250px; /* Pushed down to clear subtext */
+    width: 100%;
+    left: 0;
+    transform: none;
+    text-align: center;
+  }
+  
+  .hero-button button {
+    padding: 12px 25px; /* Larger touch target */
+    font-size: 1rem;
+  }
+  
+  /* Cards Adjustments */
+  .cat-elements > div, .arr-elements > div {
+    width: 100%;
+    margin-bottom: 20px;
+    height: auto; /* Allow height to adapt */
+    aspect-ratio: 4/3; /* Maintain a nice aspect ratio */
+  }
+
+  .cat-elements, .arr-elements {
+      width: 100%;
+      padding: 0;
+  }
+  
+  /* Footer Adjustments */
+  .footer-container {
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .footer-logo h1 {
+    font-size: 1.5rem;
+  }
+  
+  .subscribtion input {
+    width: 100%;
+  }
+  
+  .sub-button {
+      position: relative; /* adjusting position for flow */
+      right: auto;
+      top: auto;
+      margin-top: 10px;
+      width: 100%;
+      border: 1px solid #222;
+      border-radius: 20px;
+  }
+
+  .slider svg {
+      width: 20px;
+      height: 20px;
+  }
+}
