@@ -57,9 +57,9 @@ A modern e-commerce fashion store built with vanilla JavaScript, HTML5, and CSS3
 
 ## Author
 
-**Mahmoud Gamal** - [@MahmouG2525](https://github.com/MahmouG2525)
+**Mahmoud Gado** - [@MahmouG2525](https://github.com/MahmouG2525)
 
-ITI Frontend Development Student
+ITI Full Stack Development Student
 
 ## License
 
